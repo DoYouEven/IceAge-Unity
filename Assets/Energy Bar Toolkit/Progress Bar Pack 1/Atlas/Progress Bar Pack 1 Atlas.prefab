@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Progress Bar Pack 1 Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 176392176, guid: 2b16a1acf52a2a64e916f8a9e6d5df31, type: 3}
+  m_Name: 
+  atlasTexture: {fileID: 2800000, guid: e16c197445c882b49a7f34fca5124b61, type: 3}
+  items:
+  - name: bar2_fg
+    region:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: .441894531
+      height: .048828125
+    pixelsWidth: 905
+    pixelsHeight: 100
+    textureGUID: b4406f388ca4932438b0331073d38caa
+  - name: bar2_bar
+    region:
+      serializedVersion: 2
+      x: .442871094
+      y: 0
+      width: .441894531
+      height: .048828125
+    pixelsWidth: 905
+    pixelsHeight: 100
+    textureGUID: f26603e1b03eee84e86d0db1d62c988e
+  - name: bar3_bar
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .0498046875
+      width: .5
+      height: .0424804688
+    pixelsWidth: 1024
+    pixelsHeight: 87
+    textureGUID: c947e31fbd511ce489f4553dc705e734
+  - name: bar3_fg
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .0932617188
+      width: .5
+      height: .0424804688
+    pixelsWidth: 1024
+    pixelsHeight: 87
+    textureGUID: 071154aa7dd45da45ad4b173cdd0b9c9
+  - name: bar6_fg
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .13671875
+      width: .329589844
+      height: .048828125
+    pixelsWidth: 675
+    pixelsHeight: 100
+    textureGUID: b96bf7991cd9052439a945e62e0c125f
+  - name: bar6_bar
+    region:
+      serializedVersion: 2
+      x: .330566406
+      y: .13671875
+      width: .329589844
+      height: .048828125
+    pixelsWidth: 675
+    pixelsHeight: 100
+    textureGUID: 72693c00377af2045afba97c7e61c168
+  - name: bar4_bar
+    region:
+      serializedVersion: 2
+      x: .500976562
+      y: .0498046875
+      width: .454101562
+      height: .0341796875
+    pixelsWidth: 930
+    pixelsHeight: 70
+    textureGUID: dbc62ca044ac58d42b977e178f54f428
+  - name: bar4_fg
+    region:
+      serializedVersion: 2
+      x: .500976562
+      y: .0932617188
+      width: .454101562
+      height: .0341796875
+    pixelsWidth: 930
+    pixelsHeight: 70
+    textureGUID: 8c9459920e74bd44582662fbbdb81e2f
+  - name: bar1_fg
+    region:
+      serializedVersion: 2
+      x: .661132812
+      y: .13671875
+      width: .275878906
+      height: .048828125
+    pixelsWidth: 565
+    pixelsHeight: 100
+    textureGUID: 85dd12640060b1d4285d11cb0f60b8a7
+  - name: bar1_bar
+    region:
+      serializedVersion: 2
+      x: 0
+      y: .186523438
+      width: .275878906
+      height: .048828125
+    pixelsWidth: 565
+    pixelsHeight: 100
+    textureGUID: cc23715e311bb5944bf44bc1d2fa3aa4
+  - name: bar5_bar
+    region:
+      serializedVersion: 2
+      x: .276855469
+      y: .186523438
+      width: .275878906
+      height: .048828125
+    pixelsWidth: 565
+    pixelsHeight: 100
+    textureGUID: 496d5f4d2bf9cb74faa32b5bb0f5214c
+  - name: bar5_fg
+    region:
+      serializedVersion: 2
+      x: .553710938
+      y: .186523438
+      width: .275878906
+      height: .048828125
+    pixelsWidth: 565
+    pixelsHeight: 100
+    textureGUID: 309c06c886374154eabf7bd575e076db
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

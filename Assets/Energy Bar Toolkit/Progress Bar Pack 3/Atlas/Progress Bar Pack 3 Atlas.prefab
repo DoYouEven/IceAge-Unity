@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Progress Bar Pack 3 Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 176392176, guid: 2b16a1acf52a2a64e916f8a9e6d5df31, type: 3}
+  m_Name: 
+  atlasTexture: {fileID: 2800000, guid: 2039eead8ffa28340bdcc57235fbf027, type: 3}
+  items:
+  - name: bar1_bg
+    region:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: .232421875
+      height: .59765625
+    pixelsWidth: 119
+    pixelsHeight: 306
+    textureGUID: b3e453a549dea164283c9ee117f77f42
+  - name: bar1_bar
+    region:
+      serializedVersion: 2
+      x: .236328125
+      y: 0
+      width: .232421875
+      height: .59765625
+    pixelsWidth: 119
+    pixelsHeight: 306
+    textureGUID: edb3b8d85867500418c5e962d21582b4
+  - name: bar1_fg
+    region:
+      serializedVersion: 2
+      x: .47265625
+      y: 0
+      width: .232421875
+      height: .59765625
+    pixelsWidth: 119
+    pixelsHeight: 306
+    textureGUID: 250b8edcb5cb64a40b64d3956d13f7fa
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

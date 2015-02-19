@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Progress Bar Pack 2 Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 176392176, guid: 2b16a1acf52a2a64e916f8a9e6d5df31, type: 3}
+  m_Name: 
+  atlasTexture: {fileID: 2800000, guid: 7d15b1a31d34c6c4b818cbeedc6dd048, type: 3}
+  items:
+  - name: bar3
+    region:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: .449462891
+      height: .993164062
+    pixelsWidth: 1841
+    pixelsHeight: 2034
+    textureGUID: d84c45d6d1d8b7d42b1cbc015f705d70
+  - name: bar4
+    region:
+      serializedVersion: 2
+      x: .449951172
+      y: 0
+      width: .21875
+      height: .5
+    pixelsWidth: 896
+    pixelsHeight: 1024
+    textureGUID: 3380db82bb610d74285498e836d858e6
+  - name: bar2_fg
+    region:
+      serializedVersion: 2
+      x: .449951172
+      y: .500976562
+      width: .189208984
+      height: .124023438
+    pixelsWidth: 775
+    pixelsHeight: 254
+    textureGUID: 6c804b3e51710174cbebdde639e3e748
+  - name: bar2_bg
+    region:
+      serializedVersion: 2
+      x: .449951172
+      y: .625976562
+      width: .189208984
+      height: .124023438
+    pixelsWidth: 775
+    pixelsHeight: 254
+    textureGUID: be15bf07d97c23148bf39f1ad426e5d8
+  - name: bar2_bar
+    region:
+      serializedVersion: 2
+      x: .449951172
+      y: .750976562
+      width: .189208984
+      height: .124023438
+    pixelsWidth: 775
+    pixelsHeight: 254
+    textureGUID: c7ed1e2ba08e83a4db58fad46c02efde
+  - name: bar1_fg
+    region:
+      serializedVersion: 2
+      x: .449951172
+      y: .875976562
+      width: .196044922
+      height: .106445312
+    pixelsWidth: 803
+    pixelsHeight: 218
+    textureGUID: 489ac70becefeec4a8c55429d2024421
+  - name: bar1_bar
+    region:
+      serializedVersion: 2
+      x: .669189453
+      y: 0
+      width: .196044922
+      height: .106445312
+    pixelsWidth: 803
+    pixelsHeight: 218
+    textureGUID: 9ae6f22a1a939a241a45f21d43fe27bf
+  - name: bar1_bg
+    region:
+      serializedVersion: 2
+      x: .669189453
+      y: .107421875
+      width: .196044922
+      height: .106445312
+    pixelsWidth: 803
+    pixelsHeight: 218
+    textureGUID: e2405782d7bf0fe4c850b9855b3ef273
+  - name: bar5
+    region:
+      serializedVersion: 2
+      x: .865722656
+      y: 0
+      width: .0314941406
+      height: .0639648438
+    pixelsWidth: 129
+    pixelsHeight: 131
+    textureGUID: 723b0faaea22b3648853b77d865f50ef
+  - name: bar6
+    region:
+      serializedVersion: 2
+      x: .897705078
+      y: 0
+      width: .0393066406
+      height: .0454101562
+    pixelsWidth: 161
+    pixelsHeight: 93
+    textureGUID: 3850f72eacb37144f9f33c192ecad6df
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

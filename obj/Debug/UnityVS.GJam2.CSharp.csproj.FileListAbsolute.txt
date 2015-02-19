@@ -1,0 +1,17 @@
+G:\GJam2\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+G:\GJam2\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+G:\GJam2\Temp\UnityVS_bin\Debug\UnityEditor.dll
+G:\GJam2\Temp\UnityVS_bin\Debug\UnityEngine.dll
+G:\GJam2\Temp\UnityVS_bin\Debug\UnityEngine.xml
+G:\GJam2\Temp\UnityVS_bin\Debug\UnityEditor.xml
+G:\GJam2\obj\Debug\UnityVS.GJam2.CSharp.csprojResolveAssemblyReference.cache
+G:\GJam2\obj\Debug\Assembly-CSharp.dll
+G:\GJam2\obj\Debug\Assembly-CSharp.pdb
+G:\GJam2\Temp\UnityVS_bin\Debug\Mad2D.dll
+G:\GJam2\Temp\UnityVS_bin\Debug\MadCommons.dll
+G:\GJam2\Temp\UnityVS_bin\Debug\Assembly-UnityScript-firstpass.dll
+G:\GJam2\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+G:\GJam2\Temp\UnityVS_bin\Debug\Pathfinding.ClipperLib.dll
+G:\GJam2\Temp\UnityVS_bin\Debug\Pathfinding.Ionic.Zip.Reduced.dll
+G:\GJam2\Temp\UnityVS_bin\Debug\Pathfinding.JsonFx.dll
+G:\GJam2\Temp\UnityVS_bin\Debug\Pathfinding.Poly2Tri.dll

@@ -1,0 +1,28 @@
+These are the sources for dll files included in the Energy Bar Toolkit "Scripts" directory.
+
+Here's the example command line (for Windows):
+
+"C:/Program Files (x86)/Unity/Editor/Data/Mono/bin/gmcs" -target:library -out:Mad2D.dll -delaysign- -reference:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll" -define:UNITY_4_1
+
+Provided libraries are build agains the newest Unity dlls, but with UNITY_4_1 define.
+
+Here are the details about zips (in build order):
+
+- MadCommons
+	References: UnityEngine
+	Defines: UNITY_4_1
+
+- MadCommons-Editor
+	References: MadCommons, UnityEngine, UnityEditor
+	Defines: UNITY_4_1, UNITY_EDITOR
+
+- Mad2D
+	References: MadCommons, UnityEngine
+	Defines: UNITY_4_1, MAD_ALLOW_REFERENCES
+
+- Mad2D-Editor
+	References: MadCommons, MadCommons-Editor, Mad2D, UnityEngine, UnityEditor
+	Defines: Unity_4_1, UNITY_EDITOR, MAD_ALLOW_REFERENCES
+
+
+If you have any troubles with building these dlls, please write to support@madpixelmachine.com.

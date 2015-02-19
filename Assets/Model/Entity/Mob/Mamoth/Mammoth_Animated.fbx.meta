@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: 44e73376229b5c743ba79da3ba590b41
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Body1
+    100002: Head5
+    100004: Head7
+    100006: Joints
+    100008: L_Arm
+    100010: L_Arm 1
+    100012: L_Elbow
+    100014: L_Elbow 1
+    100016: L_Foot
+    100018: L_Hand
+    100020: L_Hand 1
+    100022: L_Knee
+    100024: L_Thigh
+    100026: //RootNode
+    100028: Mesh
+    100030: R_Arm
+    100032: R_Arm 1
+    100034: R_Elbow
+    100036: R_Elbow 1
+    100038: R_Feet
+    100040: R_Feet 1
+    100042: R_Foot
+    100044: R_Hand
+    100046: R_Hand 1
+    100048: R_Hip
+    100050: R_Hip1
+    100052: R_Knee
+    100054: R_Knee 1
+    100056: R_Knee 2
+    100058: R_Thigh
+    100060: Rigg
+    100062: Root
+    100064: Spine
+    400000: Body1
+    400002: Head5
+    400004: Head7
+    400006: Joints
+    400008: L_Arm
+    400010: L_Arm 1
+    400012: L_Elbow
+    400014: L_Elbow 1
+    400016: L_Foot
+    400018: L_Hand
+    400020: L_Hand 1
+    400022: L_Knee
+    400024: L_Thigh
+    400026: //RootNode
+    400028: Mesh
+    400030: R_Arm
+    400032: R_Arm 1
+    400034: R_Elbow
+    400036: R_Elbow 1
+    400038: R_Feet
+    400040: R_Feet 1
+    400042: R_Foot
+    400044: R_Hand
+    400046: R_Hand 1
+    400048: R_Hip
+    400050: R_Hip1
+    400052: R_Knee
+    400054: R_Knee 1
+    400056: R_Knee 2
+    400058: R_Thigh
+    400060: Rigg
+    400062: Root
+    400064: Spine
+    4300000: Body1
+    4300002: Head7
+    4300004: R_Arm
+    4300006: R_Hand
+    4300008: L_Arm
+    4300010: L_Hand
+    4300012: R_Thigh
+    4300014: R_Foot
+    4300016: L_Thigh
+    4300018: L_Knee
+    4300020: L_Elbow
+    4300022: L_Foot
+    4300024: R_Elbow
+    4300026: R_Knee
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Body1
+    13700002: Head7
+    13700004: L_Arm
+    13700006: L_Elbow
+    13700008: L_Foot
+    13700010: L_Hand
+    13700012: L_Knee
+    13700014: L_Thigh
+    13700016: R_Arm
+    13700018: R_Elbow
+    13700020: R_Foot
+    13700022: R_Hand
+    13700024: R_Knee
+    13700026: R_Thigh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Mesh/Body1
+        weight: 1
+      - path: Mesh/Head7
+        weight: 1
+      - path: Mesh/L_Arm
+        weight: 1
+      - path: Mesh/L_Elbow
+        weight: 1
+      - path: Mesh/L_Foot
+        weight: 1
+      - path: Mesh/L_Hand
+        weight: 1
+      - path: Mesh/L_Knee
+        weight: 1
+      - path: Mesh/L_Thigh
+        weight: 1
+      - path: Mesh/R_Arm
+        weight: 1
+      - path: Mesh/R_Elbow
+        weight: 1
+      - path: Mesh/R_Foot
+        weight: 1
+      - path: Mesh/R_Hand
+        weight: 1
+      - path: Mesh/R_Knee
+        weight: 1
+      - path: Mesh/R_Thigh
+        weight: 1
+      - path: Rigg
+        weight: 1
+      - path: Rigg/Joints
+        weight: 1
+      - path: Rigg/Joints/Root
+        weight: 1
+      - path: Rigg/Joints/Root/Head5
+        weight: 1
+      - path: Rigg/Joints/Root/L_Arm 1
+        weight: 1
+      - path: Rigg/Joints/Root/L_Arm 1/L_Elbow 1
+        weight: 1
+      - path: Rigg/Joints/Root/L_Arm 1/L_Elbow 1/L_Hand 1
+        weight: 1
+      - path: Rigg/Joints/Root/R_Arm 1
+        weight: 1
+      - path: Rigg/Joints/Root/R_Arm 1/R_Elbow 1
+        weight: 1
+      - path: Rigg/Joints/Root/R_Arm 1/R_Elbow 1/R_Hand 1
+        weight: 1
+      - path: Rigg/Joints/Root/Spine
+        weight: 1
+      - path: Rigg/Joints/Root/Spine/R_Hip
+        weight: 1
+      - path: Rigg/Joints/Root/Spine/R_Hip/R_Knee 1
+        weight: 1
+      - path: Rigg/Joints/Root/Spine/R_Hip/R_Knee 1/R_Feet
+        weight: 1
+      - path: Rigg/Joints/Root/Spine/R_Hip1
+        weight: 1
+      - path: Rigg/Joints/Root/Spine/R_Hip1/R_Knee 2
+        weight: 1
+      - path: Rigg/Joints/Root/Spine/R_Hip1/R_Knee 2/R_Feet 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

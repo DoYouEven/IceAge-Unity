@@ -1,0 +1,2885 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>UnityEditor</name>
+	</assembly>
+	<members>
+		<member name="T:UnityEditor.GameViewSizeGroupType">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AssetDatabase">
+			<summary>An Interface for accessing assets and performing operations on assets.</summary>
+		</member>
+		<member name="T:UnityEditor.Highlighter">
+			<summary>Use this class to highlight elements in the editor for use in in-editor tutorials and similar.</summary>
+		</member>
+		<member name="T:UnityEditor.ProjectWindowUtil">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.BodyPart">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.MathUtils">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.SearchableEditorWindow">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SearchableEditorWindow.OnEnable()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.GetQuatLength(UnityEngine.Quaternion)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.BoneState">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.InitializeOnLoadAttribute">
+			<summary>Allow an editor class to be initialized when Unity loads without action from the user.</summary>
+		</member>
+		<member name="M:UnityEditor.SearchableEditorWindow.OnDisable()">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.IHasCustomMenu">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.GetQuatConjugate(UnityEngine.Quaternion)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.CustomPreviewAttribute">
+			<summary>Adds an extra preview in the Inspector for the specified type.</summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.OrthogonalizeMatrix(UnityEngine.Matrix4x4)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.EditorGUI">
+			<summary>These work pretty much like the normal GUI functions - and also have matching implementations in EditorGUILayout.</summary>
+		</member>
+		<member name="M:UnityEditor.IHasCustomMenu.AddItemsToMenu(UnityEditor.GenericMenu)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ObjectPreview">
+			<summary>Base Class to derive from when creating Custom Previews.</summary>
+		</member>
+		<member name="T:UnityEditor.SceneModeUtility">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.QuaternionNormalize(UnityEngine.Quaternion&)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.Handles">
+			<summary>Custom 3D GUI controls and drawing in the scene view.</summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.QuaternionFromMatrix(UnityEngine.Matrix4x4)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.EditorStyles">
+			<summary>Common GUIStyles used for EditorGUI controls.</summary>
+		</member>
+		<member name="M:UnityEditor.SceneModeUtility.GetSelectedObjectsOfType(UnityEngine.GameObject[]&,System.Type[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.Initialize(UnityEngine.Object[])">
+			<summary>Called when the Preview get's created with the objects being previwed.</summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.GetQuatLog(UnityEngine.Quaternion)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.MoveNextTarget()">
+			<summary>Called to iterate through the targets, this will be used when previewing more than one target.</summary>
+		</member>
+		<member name="M:UnityEditor.SceneModeUtility.SearchForType(System.Type)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.GetQuatExp(UnityEngine.Quaternion)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.EditorGUILayout">
+			<summary>Auto-layouted version of EditorGUI.</summary>
+		</member>
+		<member name="T:UnityEditor.Handles/FilterMode">
+			<summary>Filtering mode for textures. Corresponds to the settings in a texture inspector.</summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.ResetTarget()">
+			<summary>Called to Reset the target before iterating through them.</summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.GetQuatSquad(System.Single,UnityEngine.Quaternion,UnityEngine.Quaternion,UnityEngine.Quaternion,UnityEngine.Quaternion)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SceneModeUtility.SearchBar(System.Type[])">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.SaveType">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LabelField(System.String,UnityEngine.GUILayoutOption[])">
+			<summary>Make a label field. (Useful for showing read-only info.)</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.label">
+			<summary>Style used for the labelled on all EditorGUI overloads that take a prefix label.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LabelField(System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a label field. (Useful for showing read-only info.)</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LabelField(UnityEngine.GUIContent,UnityEngine.GUILayoutOption[])">
+			<summary>Make a label field. (Useful for showing read-only info.)</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LabelField(UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a label field. (Useful for showing read-only info.)</summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.GetSquadIntermediate(UnityEngine.Quaternion,UnityEngine.Quaternion,UnityEngine.Quaternion)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SceneModeUtility.StaticFlagField(System.String,UnityEditor.SerializedProperty,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.CustomPropertyDrawer">
+			<summary>Tells a custom PropertyDrawer or DecoratorDrawer which run-time Serializable class or PropertyAttribute it's a drawer for.</summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.HasPreviewGUI()">
+			<summary>Wheather the current target can be previwed.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LabelField(System.String,System.String,UnityEngine.GUILayoutOption[])">
+			<summary>Make a label field. (Useful for showing read-only info.)</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LabelField(System.String,System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a label field. (Useful for showing read-only info.)</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LabelField(UnityEngine.GUIContent,UnityEngine.GUIContent,UnityEngine.GUILayoutOption[])">
+			<summary>Make a label field. (Useful for showing read-only info.)</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.miniLabel">
+			<summary>Style for label with small font.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LabelField(UnityEngine.GUIContent,UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a label field. (Useful for showing read-only info.)</summary>
+		</member>
+		<member name="M:UnityEditor.SceneModeUtility.SetStaticFlags(UnityEngine.Object[],System.Int32,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.GetPreviewTitle()">
+			<summary>Override this method if you want to change the label of the Preview area.</summary>
+		</member>
+		<member name="T:UnityEditor.DecoratorDrawer">
+			<summary>Base class to derive custom decorator drawers from.</summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.Ease(System.Single,System.Single,System.Single)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.largeLabel">
+			<summary>Style for label with large font.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Toggle(System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary>Make a toggle.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Toggle(System.String,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary>Make a toggle.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Toggle(UnityEngine.GUIContent,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary>Make a toggle.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Toggle(System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a toggle.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Toggle(System.String,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a toggle.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Toggle(UnityEngine.GUIContent,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a toggle.</summary>
+		</member>
+		<member name="T:UnityEditor.PopupWindowContent">
+			<summary>Class used to implement content for a popup window.</summary>
+		</member>
+		<member name="M:UnityEditor.SceneModeUtility.GetObjects(UnityEngine.Object[],System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.DecoratorDrawer.OnGUI(UnityEngine.Rect)">
+			<summary>Override this method to make your own GUI for the decorator.</summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.OnPreviewGUI(UnityEngine.Rect,UnityEngine.GUIStyle)">
+			<summary>Implement to create your own custom preview for the preview area of the inspector, primary editor headers and the object selector.</summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.Slerp(UnityEngine.Quaternion,UnityEngine.Quaternion,System.Single)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.boldLabel">
+			<summary>Style for bold label.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ToggleLeft(System.String,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary>Make a toggle field where the toggle is to the left and the label immediately to the right of it.</summary>
+		</member>
+		<member name="T:UnityEditor.PopupWindow">
+			<summary>Class used to display popup windows that inherit from PopupWindowContent.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ToggleLeft(UnityEngine.GUIContent,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary>Make a toggle field where the toggle is to the left and the label immediately to the right of it.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ToggleLeft(System.String,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a toggle field where the toggle is to the left and the label immediately to the right of it.</summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.OnInteractivePreviewGUI(UnityEngine.Rect,UnityEngine.GUIStyle)">
+			<summary>Implement to create your own interactive custom preview. Interactive custom previews are used in the preview area of the inspector and the object selector.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ToggleLeft(UnityEngine.GUIContent,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a toggle field where the toggle is to the left and the label immediately to the right of it.</summary>
+		</member>
+		<member name="M:UnityEditor.DecoratorDrawer.GetHeight()">
+			<summary>Override this method to specify how tall the GUI for this decorator is in pixels.</summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.IntersectRayTriangle(UnityEngine.Ray,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.miniBoldLabel">
+			<summary>Style for mini bold label.</summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.OnPreviewSettings()">
+			<summary>Override this method if you want to show custom controls in the preview header.</summary>
+		</member>
+		<member name="M:UnityEditor.PopupWindow.Show(UnityEngine.Rect,UnityEditor.PopupWindowContent)">
+			<summary>Show a popup with the given PopupWindowContent.</summary>
+		</member>
+		<member name="T:UnityEditor.GUIDrawer">
+			<summary>Base class for PropertyDrawer and DecoratorDrawer.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TextField(System.String,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field.</summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.ClosestPtSegmentRay(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Ray,System.Single&,System.Single&,UnityEngine.Vector3&)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PopupWindow.Show(UnityEngine.Rect,UnityEditor.PopupWindowContent,UnityEditor.PopupLocationHelper/PopupLocation[])">
+			<summary>Show a popup with the given PopupWindowContent.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TextField(System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TextField(System.String,System.String,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TextField(System.String,System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TextField(UnityEngine.GUIContent,System.String,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TextField(UnityEngine.GUIContent,System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.wordWrappedLabel">
+			<summary>Style for word wrapped label.</summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.IntersectRaySphere(UnityEngine.Ray,UnityEngine.Vector3,System.Single,System.Single&,UnityEngine.Vector3&)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.GetInfoString()">
+			<summary>Implement this method to show object information on top of the object preview.</summary>
+		</member>
+		<member name="T:UnityEditor.PropertyDrawer">
+			<summary>Base class to derive custom property drawers from. Use this to create custom drawers for your own Serializable classes or for script variables with custom PropertyAttributes.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TextArea(System.String,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text area.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TextArea(System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text area.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.wordWrappedMiniLabel">
+			<summary>Style for word wrapped mini label.</summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.ClosestPtRaySphere(UnityEngine.Ray,UnityEngine.Vector3,System.Single,System.Single&,UnityEngine.Vector3&)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.DrawPreview(UnityEngine.Rect)">
+			<summary>This is the first entry point for Preview Drawing.</summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.DrawPreview(UnityEditor.IPreviewable,UnityEngine.Rect,UnityEngine.Object[])">
+			<summary>This is the first entry point for Preview Drawing.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.SelectableLabel(System.String,UnityEngine.GUILayoutOption[])">
+			<summary>Make a selectable label field. (Useful for showing read-only info that can be copy-pasted.)</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.SelectableLabel(System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a selectable label field. (Useful for showing read-only info that can be copy-pasted.)</summary>
+		</member>
+		<member name="M:UnityEditor.PropertyDrawer.OnGUI(UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent)">
+			<summary>Override this method to make your own GUI for the property.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.whiteLabel">
+			<summary>Style for white label.</summary>
+		</member>
+		<member name="T:UnityEditor.Editor">
+			<summary>Base class to derive custom Editors from. Use this to create your own custom inspectors and editors for your objects.</summary>
+		</member>
+		<member name="T:UnityEditor.AnimationClipCurveData">
+			<summary>An AnimationClipCurveData object contains all the information needed to identify a specific curve in an AnimationClip. The curve animates a specific property of a component / material attached to a game object / animated bone.</summary>
+		</member>
+		<member name="M:UnityEditor.PropertyDrawer.GetPropertyHeight(UnityEditor.SerializedProperty,UnityEngine.GUIContent)">
+			<summary>Override this method to specify how tall the GUI for this field is in pixels.</summary>
+		</member>
+		<member name="T:UnityEditor.BuildOptions">
+			<summary>Building options. Multiple options can be combined together.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PasswordField(System.String,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field where the user can enter a password.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PasswordField(System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field where the user can enter a password.</summary>
+		</member>
+		<member name="T:UnityEditor.MaterialEditor">
+			<summary>The Unity Material Editor.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipCurveData.path">
+			<summary>The path of the game object / bone being animated.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PasswordField(System.String,System.String,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field where the user can enter a password.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.whiteMiniLabel">
+			<summary>Style for white mini label.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PasswordField(System.String,System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field where the user can enter a password.</summary>
+		</member>
+		<member name="T:UnityEditor.EditorGUIUtility">
+			<summary>Miscellaneous helper stuff for EditorGUI.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PasswordField(UnityEngine.GUIContent,System.String,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field where the user can enter a password.</summary>
+		</member>
+		<member name="M:UnityEditor.Editor.DrawHeader()">
+			<summary>Call this function to draw the header of the editor.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PasswordField(UnityEngine.GUIContent,System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field where the user can enter a password.</summary>
+		</member>
+		<member name="T:UnityEditor.BuildAssetBundleOptions">
+			<summary>Asset Bundle building options.</summary>
+		</member>
+		<member name="M:UnityEditor.Editor.DrawPreview(UnityEngine.Rect)">
+			<summary>The first entry point for Preview Drawing.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.whiteLargeLabel">
+			<summary>Style for white large label.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.FloatField(System.Single,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field for entering float values.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.FloatField(System.Single,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field for entering float values.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.FloatField(System.String,System.Single,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field for entering float values.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipCurveData.type">
+			<summary>The type of the component / material being animated.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.FloatField(System.String,System.Single,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field for entering float values.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.FloatField(UnityEngine.GUIContent,System.Single,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field for entering float values.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.FloatField(UnityEngine.GUIContent,System.Single,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field for entering float values.</summary>
+		</member>
+		<member name="T:UnityEditor.MessageType">
+			<summary>User message types.</summary>
+		</member>
+		<member name="T:UnityEditor.MaterialPropertyDrawer">
+			<summary>Base class to derive custom material property drawers from.</summary>
+		</member>
+		<member name="M:UnityEditor.Editor.UseDefaultMargins()">
+			<summary>Override this method in subclasses to return false if you don't want default margins.</summary>
+		</member>
+		<member name="T:UnityEditor.BuildPipeline">
+			<summary>Lets you programmatically build players or AssetBundles which can be loaded from the web.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.whiteBoldLabel">
+			<summary>Style for white bold label.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntField(System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field for entering integers.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntField(System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field for entering integers.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntField(System.String,System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field for entering integers.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntField(System.String,System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field for entering integers.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntField(UnityEngine.GUIContent,System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field for entering integers.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipCurveData.propertyName">
+			<summary>The name of the property being animated.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntField(UnityEngine.GUIContent,System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a text field for entering integers.</summary>
+		</member>
+		<member name="T:UnityEditor.EditorSkin">
+			<summary>Enum that selects which skin to return from EditorGUIUtility.GetBuiltinSkin.</summary>
+		</member>
+		<member name="M:UnityEditor.MaterialPropertyDrawer.OnGUI(UnityEngine.Rect,UnityEditor.MaterialProperty,System.String,UnityEditor.MaterialEditor)">
+			<summary>Override this method to make your own GUI for the property.</summary>
+		</member>
+		<member name="M:UnityEditor.Editor.CreateEditor(UnityEngine.Object)">
+			<summary>Make a custom editor for obj or objects.</summary>
+		</member>
+		<member name="M:UnityEditor.Editor.CreateEditor(UnityEngine.Object,System.Type)">
+			<summary>Make a custom editor for obj or objects.</summary>
+		</member>
+		<member name="M:UnityEditor.Editor.CreateEditor(UnityEngine.Object[],System.Type)">
+			<summary>Make a custom editor for obj or objects.</summary>
+		</member>
+		<member name="M:UnityEditor.Editor.CreateEditor(UnityEngine.Object[])">
+			<summary>Make a custom editor for obj or objects.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.radioButton">
+			<summary>Style used for a radio button.</summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.PushAssetDependencies()">
+			<summary>Lets you manage cross-references and dependencies between different asset bundles and player builds.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipCurveData.curve">
+			<summary>The actual animation curve.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Slider(System.Single,System.Single,System.Single,UnityEngine.GUILayoutOption[])">
+			<summary>Make a slider the user can drag to change a value between a min and a max.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Slider(System.String,System.Single,System.Single,System.Single,UnityEngine.GUILayoutOption[])">
+			<summary>Make a slider the user can drag to change a value between a min and a max.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Slider(UnityEngine.GUIContent,System.Single,System.Single,System.Single,UnityEngine.GUILayoutOption[])">
+			<summary>Make a slider the user can drag to change a value between a min and a max.</summary>
+		</member>
+		<member name="M:UnityEditor.MaterialPropertyDrawer.GetPropertyHeight(UnityEditor.MaterialProperty,System.String,UnityEditor.MaterialEditor)">
+			<summary>Override this method to specify how tall the GUI for this property is in pixels.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.miniButton">
+			<summary>Style used for a standalone small button.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Slider(UnityEditor.SerializedProperty,System.Single,System.Single,UnityEngine.GUILayoutOption[])">
+			<summary>Make a slider the user can drag to change a value between a min and a max.</summary>
+		</member>
+		<member name="T:UnityEditor.MouseCursor">
+			<summary>Custom mouse cursor shapes used with EditorGUIUtility.AddCursorRect.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Slider(UnityEditor.SerializedProperty,System.Single,System.Single,System.String,UnityEngine.GUILayoutOption[])">
+			<summary>Make a slider the user can drag to change a value between a min and a max.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Slider(UnityEditor.SerializedProperty,System.Single,System.Single,UnityEngine.GUIContent,UnityEngine.GUILayoutOption[])">
+			<summary>Make a slider the user can drag to change a value between a min and a max.</summary>
+		</member>
+		<member name="M:UnityEditor.Editor.DrawDefaultInspector()">
+			<summary>Draw the built-in inspector.</summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.PopAssetDependencies()">
+			<summary>Lets you manage cross-references and dependencies between different asset bundles and player builds.</summary>
+		</member>
+		<member name="T:UnityEditor.ObjectReferenceKeyframe">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.miniButtonLeft">
+			<summary>Style used for the leftmost button in a horizontal button group.</summary>
+		</member>
+		<member name="M:UnityEditor.MaterialPropertyDrawer.Apply(UnityEditor.MaterialProperty)">
+			<summary>Apply extra initial values to the material.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntSlider(System.Int32,System.Int32,System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary>Make a slider the user can drag to change an integer value between a min and a max.</summary>
+		</member>
+		<member name="M:UnityEditor.Editor.OnInspectorGUI()">
+			<summary>Implement this function to make a custom inspector.</summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildPlayer(System.String[],System.String,UnityEditor.BuildTarget,UnityEditor.BuildOptions)">
+			<summary>Builds a player (Unity Pro only).</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntSlider(System.String,System.Int32,System.Int32,System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary>Make a slider the user can drag to change an integer value between a min and a max.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntSlider(UnityEngine.GUIContent,System.Int32,System.Int32,System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary>Make a slider the user can drag to change an integer value between a min and a max.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntSlider(UnityEditor.SerializedProperty,System.Int32,System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary>Make a slider the user can drag to change an integer value between a min and a max.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntSlider(UnityEditor.SerializedProperty,System.Int32,System.Int32,System.String,UnityEngine.GUILayoutOption[])">
+			<summary>Make a slider the user can drag to change an integer value between a min and a max.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntSlider(UnityEditor.SerializedProperty,System.Int32,System.Int32,UnityEngine.GUIContent,UnityEngine.GUILayoutOption[])">
+			<summary>Make a slider the user can drag to change an integer value between a min and a max.</summary>
+		</member>
+		<member name="F:UnityEditor.ObjectReferenceKeyframe.time">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.DrawCameraMode">
+			<summary>Drawing modes for Handles.DrawCamera.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.miniButtonMid">
+			<summary>Style used for the middle buttons in a horizontal group.</summary>
+		</member>
+		<member name="M:UnityEditor.Editor.RequiresConstantRepaint()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildStreamedSceneAssetBundle(System.String[],System.String,UnityEditor.BuildTarget)">
+			<summary>Builds one or more scenes and all their dependencies into a compressed asset bundle.</summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildStreamedSceneAssetBundle(System.String[],System.String,UnityEditor.BuildTarget,UnityEditor.BuildOptions)">
+			<summary>Builds one or more scenes and all their dependencies into a compressed asset bundle.</summary>
+		</member>
+		<member name="F:UnityEditor.ObjectReferenceKeyframe.value">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildStreamedSceneAssetBundle(System.String[],System.String,UnityEditor.BuildTarget,System.UInt32&)">
+			<summary>Builds one or more scenes and all their dependencies into a compressed asset bundle.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.MinMaxSlider(System.Single&,System.Single&,System.Single,System.Single,UnityEngine.GUILayoutOption[])">
+			<summary>Make a special slider the user can use to specify a range between a min and a max.</summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildStreamedSceneAssetBundle(System.String[],System.String,UnityEditor.BuildTarget,System.UInt32&,UnityEditor.BuildOptions)">
+			<summary>Builds one or more scenes and all their dependencies into a compressed asset bundle.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.MinMaxSlider(UnityEngine.GUIContent,System.Single&,System.Single&,System.Single,System.Single,UnityEngine.GUILayoutOption[])">
+			<summary>Make a special slider the user can use to specify a range between a min and a max.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.miniButtonRight">
+			<summary>Style used for the rightmost button in a horizontal group.</summary>
+		</member>
+		<member name="T:UnityEditor.HandleUtility">
+			<summary>Helper functions for Scene View style 3D GUI.</summary>
+		</member>
+		<member name="T:UnityEditor.EditorBehaviorMode">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.Repaint()">
+			<summary>Repaint any inspectors that shows this editor.</summary>
+		</member>
+		<member name="T:UnityEditor.EditorCurveBinding">
+			<summary>Defines how a curve is attached to an object that it controls.</summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundle(UnityEngine.Object,UnityEngine.Object[],System.String,UnityEditor.BuildAssetBundleOptions)">
+			<summary>Builds an asset bundle (Unity Pro only).</summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundle(UnityEngine.Object,UnityEngine.Object[],System.String)">
+			<summary>Builds an asset bundle (Unity Pro only).</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(System.Int32,System.String[],UnityEngine.GUILayoutOption[])">
+			<summary>Make a generic popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundle(UnityEngine.Object,UnityEngine.Object[],System.String,UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)">
+			<summary>Builds an asset bundle (Unity Pro only).</summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundle(UnityEngine.Object,UnityEngine.Object[],System.String,System.UInt32&,UnityEditor.BuildAssetBundleOptions)">
+			<summary>Builds an asset bundle (Unity Pro only).</summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundle(UnityEngine.Object,UnityEngine.Object[],System.String,System.UInt32&)">
+			<summary>Builds an asset bundle (Unity Pro only).</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.textField">
+			<summary>Style used for EditorGUI.TextField.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(System.Int32,System.String[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a generic popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundle(UnityEngine.Object,UnityEngine.Object[],System.String,System.UInt32&,UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)">
+			<summary>Builds an asset bundle (Unity Pro only).</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(System.Int32,UnityEngine.GUIContent[],UnityEngine.GUILayoutOption[])">
+			<summary>Make a generic popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(System.Int32,UnityEngine.GUIContent[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a generic popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(System.String,System.Int32,System.String[],UnityEngine.GUILayoutOption[])">
+			<summary>Make a generic popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(System.String,System.Int32,System.String[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a generic popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(UnityEngine.GUIContent,System.Int32,UnityEngine.GUIContent[],UnityEngine.GUILayoutOption[])">
+			<summary>Make a generic popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.CalcLineTranslation(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector3,UnityEngine.Vector3)">
+			<summary>Map a mouse drag onto a movement along a line in 3D space.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(UnityEngine.GUIContent,System.Int32,UnityEngine.GUIContent[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a generic popup selection field.</summary>
+		</member>
+		<member name="F:UnityEditor.EditorCurveBinding.path">
+			<summary>The transform path of the object that is animated.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(UnityEditor.SerializedProperty,UnityEngine.GUIContent[],UnityEngine.GUILayoutOption[])">
+			<summary>Make a generic popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(UnityEditor.SerializedProperty,UnityEngine.GUIContent[],UnityEngine.GUIContent,UnityEngine.GUILayoutOption[])">
+			<summary>Make a generic popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.Editor.HasPreviewGUI()">
+			<summary>Override this method in subclasses if you implement OnPreviewGUI.</summary>
+		</member>
+		<member name="T:UnityEditor.SpritePackerMode">
+			<summary>Sprite Packer mode for the current project.</summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundleExplicitAssetNames(UnityEngine.Object[],System.String[],System.String,UnityEditor.BuildAssetBundleOptions)">
+			<summary>Builds an asset bundle, with custom names for the assets (Unity Pro only).</summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundleExplicitAssetNames(UnityEngine.Object[],System.String[],System.String)">
+			<summary>Builds an asset bundle, with custom names for the assets (Unity Pro only).</summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundleExplicitAssetNames(UnityEngine.Object[],System.String[],System.String,UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)">
+			<summary>Builds an asset bundle, with custom names for the assets (Unity Pro only).</summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundleExplicitAssetNames(UnityEngine.Object[],System.String[],System.String,System.UInt32&,UnityEditor.BuildAssetBundleOptions)">
+			<summary>Builds an asset bundle, with custom names for the assets (Unity Pro only).</summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundleExplicitAssetNames(UnityEngine.Object[],System.String[],System.String,System.UInt32&)">
+			<summary>Builds an asset bundle, with custom names for the assets (Unity Pro only).</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.textArea">
+			<summary>Style used for EditorGUI.TextArea.</summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundleExplicitAssetNames(UnityEngine.Object[],System.String[],System.String,System.UInt32&,UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)">
+			<summary>Builds an asset bundle, with custom names for the assets (Unity Pro only).</summary>
+		</member>
+		<member name="F:UnityEditor.EditorCurveBinding.propertyName">
+			<summary>The property of the object that is animated.</summary>
+		</member>
+		<member name="M:UnityEditor.Editor.GetPreviewTitle()">
+			<summary>Override this method if you want to change the label of the Preview area.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumPopup(System.Enum,UnityEngine.GUILayoutOption[])">
+			<summary>Make an enum popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumPopup(System.Enum,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make an enum popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumPopup(System.String,System.Enum,UnityEngine.GUILayoutOption[])">
+			<summary>Make an enum popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumPopup(System.String,System.Enum,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make an enum popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumPopup(UnityEngine.GUIContent,System.Enum,UnityEngine.GUILayoutOption[])">
+			<summary>Make an enum popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumPopup(UnityEngine.GUIContent,System.Enum,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make an enum popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.PointOnLineParameter(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+			<summary>Returns the parameter for the projection of the point on the given line.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.miniTextField">
+			<summary>Smaller text field.</summary>
+		</member>
+		<member name="M:UnityEditor.Editor.RenderStaticPreview(System.String,UnityEngine.Object[],System.Int32,System.Int32)">
+			<summary>Override this method if you want to render a static preview that shows.</summary>
+		</member>
+		<member name="T:UnityEditor.EditorWindow">
+			<summary>Derive from this class to create an editor window.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorCurveBinding.GetHashCode()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.ProjectPointLine(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+			<summary>Project point onto a line.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(System.Int32,System.String[],System.Int32[],UnityEngine.GUILayoutOption[])">
+			<summary>Make an integer popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(System.Int32,System.String[],System.Int32[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make an integer popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(System.Int32,UnityEngine.GUIContent[],System.Int32[],UnityEngine.GUILayoutOption[])">
+			<summary>Make an integer popup selection field.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.numberField">
+			<summary>Style used for field editors for numbers.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(System.Int32,UnityEngine.GUIContent[],System.Int32[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make an integer popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(System.String,System.Int32,System.String[],System.Int32[],UnityEngine.GUILayoutOption[])">
+			<summary>Make an integer popup selection field.</summary>
+		</member>
+		<member name="T:UnityEditor.BuildTarget">
+			<summary>Target build platform.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(System.String,System.Int32,System.String[],System.Int32[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make an integer popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(UnityEngine.GUIContent,System.Int32,UnityEngine.GUIContent[],System.Int32[],UnityEngine.GUILayoutOption[])">
+			<summary>Make an integer popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(UnityEngine.GUIContent,System.Int32,UnityEngine.GUIContent[],System.Int32[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make an integer popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(UnityEditor.SerializedProperty,UnityEngine.GUIContent[],System.Int32[],UnityEngine.GUILayoutOption[])">
+			<summary>Make an integer popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(UnityEditor.SerializedProperty,UnityEngine.GUIContent[],System.Int32[],UnityEngine.GUIContent,UnityEngine.GUILayoutOption[])">
+			<summary>Make an integer popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.Editor.OnPreviewGUI(UnityEngine.Rect,UnityEngine.GUIStyle)">
+			<summary>Implement to create your own custom preview for the preview area of the inspector, primary editor headers and the object selector.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorCurveBinding.Equals(System.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(UnityEditor.SerializedProperty,UnityEngine.GUIContent[],System.Int32[],UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make an integer popup selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.BeginWindows()">
+			<summary>Mark the beginning area of all popup windows.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistancePointLine(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+			<summary>Calculate distance between a point and a line.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.popup">
+			<summary>Style used for EditorGUI.Popup, EditorGUI.EnumPopup,.</summary>
+		</member>
+		<member name="M:UnityEditor.Editor.OnInteractivePreviewGUI(UnityEngine.Rect,UnityEngine.GUIStyle)">
+			<summary>Implement to create your own interactive custom preview. Interactive custom previews are used in the preview area of the inspector and the object selector.</summary>
+		</member>
+		<member name="F:UnityEditor.BuildTarget.iPhone">
+			<summary>Build an iPhone player.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TagField(System.String,UnityEngine.GUILayoutOption[])">
+			<summary>Make a tag selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TagField(System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a tag selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorCurveBinding.FloatCurve(System.String,System.Type,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TagField(System.String,System.String,UnityEngine.GUILayoutOption[])">
+			<summary>Make a tag selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TagField(System.String,System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a tag selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TagField(UnityEngine.GUIContent,System.String,UnityEngine.GUILayoutOption[])">
+			<summary>Make a tag selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TagField(UnityEngine.GUIContent,System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a tag selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.EndWindows()">
+			<summary>Close a window group started with EditorWindow.BeginWindows.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistancePointBezier(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+			<summary>Calculate distance between a point and a Bezier curve.</summary>
+		</member>
+		<member name="M:UnityEditor.Editor.OnPreviewSettings()">
+			<summary>Override this method if you want to show custom controls in the preview header.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.objectField">
+			<summary>Style used for headings for object fields.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorCurveBinding.PPtrCurve(System.String,System.Type,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LayerField(System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary>Make a layer selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LayerField(System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a layer selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LayerField(System.String,System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary>Make a layer selection field.</summary>
+		</member>
+		<member name="T:UnityEditor.BuildTargetGroup">
+			<summary>Build target group.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LayerField(System.String,System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a layer selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LayerField(UnityEngine.GUIContent,System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary>Make a layer selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.ShowNotification(UnityEngine.GUIContent)">
+			<summary>Show a notification message.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LayerField(UnityEngine.GUIContent,System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a layer selection field.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistanceToLine(UnityEngine.Vector3,UnityEngine.Vector3)">
+			<summary>Pixel distance from mouse pointer to line.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.objectFieldThumb">
+			<summary>Style used for headings for the Select button in object fields.</summary>
+		</member>
+		<member name="M:UnityEditor.Editor.GetInfoString()">
+			<summary>Implement this method to show asset information on top of the asset preview.</summary>
+		</member>
+		<member name="T:UnityEditor.AnimationClipSettings">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.RemoveNotification()">
+			<summary>Stop showing notification message.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.MaskField(UnityEngine.GUIContent,System.Int32,System.String[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for masks.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistanceToCircle(UnityEngine.Vector3,System.Single)">
+			<summary>Pixel distance from mouse pointer to camera facing circle.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.MaskField(System.String,System.Int32,System.String[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for masks.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.MaskField(UnityEngine.GUIContent,System.Int32,System.String[],UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for masks.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.MaskField(System.String,System.Int32,System.String[],UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for masks.</summary>
+		</member>
+		<member name="F:UnityEditor.BuildTargetGroup.iPhone">
+			<summary>Apple iOS target.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.MaskField(System.Int32,System.String[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for masks.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.MaskField(System.Int32,System.String[],UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for masks.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.colorField">
+			<summary>Style used for headings for Color fields.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.startTime">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ReplacePrefabOptions">
+			<summary>Flags for the PrefabUtility.ReplacePrefab function.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.ShowTab()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistanceToRectangle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single)">
+			<summary>Pixel distance from mouse pointer to a rectangle on screen.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumMaskField(UnityEngine.GUIContent,System.Enum,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for enum based masks.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumMaskField(System.String,System.Enum,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for enum based masks.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumMaskField(UnityEngine.GUIContent,System.Enum,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for enum based masks.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumMaskField(System.String,System.Enum,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for enum based masks.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumMaskField(System.Enum,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for enum based masks.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.stopTime">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumMaskField(System.Enum,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for enum based masks.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.layerMaskField">
+			<summary>Style used for headings for Layer masks.</summary>
+		</member>
+		<member name="T:UnityEditor.CallbackOrderAttribute">
+			<summary>Smaller m_CallbackOrder values will be called first.</summary>
+		</member>
+		<member name="T:UnityEditor.PrefabType">
+			<summary>The type of a prefab object as returned by EditorUtility.GetPrefabType.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistancePointToLine(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)">
+			<summary>Distance from a point p in 2d to a line defined by two points a and b.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.orientationOffsetY">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.Focus()">
+			<summary>Moves keyboard focus to this EditorWindow.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ObjectField(UnityEngine.Object,System.Type,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field to receive any object type.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ObjectField(UnityEngine.Object,System.Type,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field to receive any object type.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistancePointToLineSegment(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)">
+			<summary>Distance from a point p in 2d to a line segment defined by two points a and b.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ObjectField(System.String,UnityEngine.Object,System.Type,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field to receive any object type.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ObjectField(System.String,UnityEngine.Object,System.Type,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field to receive any object type.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ObjectField(UnityEngine.GUIContent,UnityEngine.Object,System.Type,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field to receive any object type.</summary>
+		</member>
+		<member name="T:UnityEditor.PropertyModification">
+			<summary>Defines a single modified property.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ObjectField(UnityEngine.GUIContent,UnityEngine.Object,System.Type,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field to receive any object type.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.toggle">
+			<summary>Style used for headings for EditorGUI.Toggle.</summary>
+		</member>
+		<member name="T:UnityEditor.StaticEditorFlags">
+			<summary>Static Editor Flags.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.level">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.ShowUtility()">
+			<summary>Show the EditorWindow as a floating utility window.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistanceToDisc(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)">
+			<summary>Pixel distance from mouse pointer to a 3D disc.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Vector2Field(System.String,UnityEngine.Vector2,UnityEngine.GUILayoutOption[])">
+			<summary>Make an X &amp; Y field for entering a Vector2.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Vector2Field(UnityEngine.GUIContent,UnityEngine.Vector2,UnityEngine.GUILayoutOption[])">
+			<summary>Make an X &amp; Y field for entering a Vector2.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.foldout">
+			<summary>Style used for headings for EditorGUI.Foldout.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.cycleOffset">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.EditorApplication">
+			<summary>Main Application class.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.ShowPopup()">
+			<summary>Used for popup style windows.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.ClosestPointToDisc(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)">
+			<summary>Get the point on an disc (in 3D space) which is closest to the current mouse position.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Vector3Field(System.String,UnityEngine.Vector3,UnityEngine.GUILayoutOption[])">
+			<summary>Make an X, Y &amp; Z field for entering a Vector3.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Vector3Field(UnityEngine.GUIContent,UnityEngine.Vector3,UnityEngine.GUILayoutOption[])">
+			<summary>Make an X, Y &amp; Z field for entering a Vector3.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.foldoutPreDrop">
+			<summary>Style used for headings for EditorGUI.Foldout.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.ShowAsDropDown(UnityEngine.Rect,UnityEngine.Vector2)">
+			<summary>Show window with dropdown behaviour (e.g. window is closed when it loses focus) and having.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistanceToArc(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single)">
+			<summary>Pixel distance from mouse pointer to a 3D section of a disc.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.ShowAsDropDown(UnityEngine.Rect,UnityEngine.Vector2,UnityEditor.PopupLocationHelper/PopupLocation[])">
+			<summary>Show window with dropdown behaviour (e.g. window is closed when it loses focus) and having.</summary>
+		</member>
+		<member name="F:UnityEditor.EditorApplication.projectWindowItemOnGUI">
+			<summary>Delegate for OnGUI events for every visible list item in the ProjectWindow.</summary>
+		</member>
+		<member name="F:UnityEditor.PropertyModification.target">
+			<summary>Object that will be modified.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.loopTime">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.Show()">
+			<summary>Show the EditorWindow.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.ClosestPointToArc(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single)">
+			<summary>Get the point on an arc (in 3D space) which is closest to the current mouse position.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.Show(System.Boolean)">
+			<summary>Show the EditorWindow.</summary>
+		</member>
+		<member name="F:UnityEditor.PropertyModification.propertyPath">
+			<summary>Property path of the property being modified (Matches as SerializedProperty.propertyPath).</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Vector4Field(System.String,UnityEngine.Vector4,UnityEngine.GUILayoutOption[])">
+			<summary>Make an X, Y, Z &amp; W field for entering a Vector4.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.loopBlend">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.EditorApplication.hierarchyWindowItemOnGUI">
+			<summary>Delegate for OnGUI events for every visible list item in the HierarchyWindow.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.toggleGroup">
+			<summary>Style used for headings for EditorGUILayout.BeginToggleGroup.</summary>
+		</member>
+		<member name="F:UnityEditor.PropertyModification.value">
+			<summary>The value being applied.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistanceToPolyLine(UnityEngine.Vector3[])">
+			<summary>Pixel distance from mouse pointer to a polyline.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.ShowAuxWindow()">
+			<summary>Show the editor window in the auxiliary window.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.loopBlendOrientation">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.RectField(UnityEngine.Rect,UnityEngine.GUILayoutOption[])">
+			<summary>Make an X, Y, W &amp; H field for entering a Rect.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.RectField(System.String,UnityEngine.Rect,UnityEngine.GUILayoutOption[])">
+			<summary>Make an X, Y, W &amp; H field for entering a Rect.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.RectField(UnityEngine.GUIContent,UnityEngine.Rect,UnityEngine.GUILayoutOption[])">
+			<summary>Make an X, Y, W &amp; H field for entering a Rect.</summary>
+		</member>
+		<member name="F:UnityEditor.EditorApplication.update">
+			<summary>Delegate for generic updates.</summary>
+		</member>
+		<member name="F:UnityEditor.PropertyModification.objectReference">
+			<summary>The value being applied when it is a object reference (which can not be represented as a string).</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.standardFont">
+			<summary>Standard font.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.ClosestPointToPolyLine(UnityEngine.Vector3[])">
+			<summary>Get the point on a polyline (in 3D space) which is closest to the current mouse position.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.Type,System.Boolean,System.String)">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.Type,System.Boolean)">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BoundsField(UnityEngine.Bounds,UnityEngine.GUILayoutOption[])">
+			<summary>Make Center &amp; Extents field for entering a Bounds.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.Type)">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="F:UnityEditor.EditorApplication.hierarchyWindowChanged">
+			<summary>Each time an object is (or a group of objects are) created, renamed, parented, unparented or destroyed this callback is raised.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BoundsField(System.String,UnityEngine.Bounds,UnityEngine.GUILayoutOption[])">
+			<summary>Make Center &amp; Extents field for entering a Bounds.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.Type,System.Boolean,System.String,System.Boolean)">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.loopBlendPositionY">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BoundsField(UnityEngine.GUIContent,UnityEngine.Bounds,UnityEngine.GUILayoutOption[])">
+			<summary>Make Center &amp; Extents field for entering a Bounds.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow()">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.Boolean)">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.Boolean,System.String)">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.String)">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="T:UnityEditor.PrefabUtility">
+			<summary>Utility class for any prefab related operations.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.String,System.Boolean)">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.Boolean,System.String,System.Boolean)">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.Type[])">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.String,System.Type[])">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.String,System.Boolean,System.Type[])">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.AddControl(System.Int32,System.Single)">
+			<summary>Record a distance measurement from a handle.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.boldFont">
+			<summary>Bold font.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.loopBlendPositionXZ">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.EditorApplication.projectWindowChanged">
+			<summary>Callback raised whenever the state of the Project window changes.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ColorField(UnityEngine.Color,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for selecting a Color.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ColorField(System.String,UnityEngine.Color,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for selecting a Color.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ColorField(UnityEngine.GUIContent,UnityEngine.Color,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for selecting a Color.</summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.GetPrefabParent(UnityEngine.Object)">
+			<summary>Returns the GameObject parent of source, or null if it can't be found.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.AddDefaultControl(System.Int32)">
+			<summary>Add the ID for a default control. This will be picked if nothing else is.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.FocusWindowIfItsOpen(System.Type)">
+			<summary>Focuses the first found EditorWindow of specified type if it is open.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.miniFont">
+			<summary>Mini font.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.FocusWindowIfItsOpen()">
+			<summary>Focuses the first found EditorWindow of specified type if it is open.</summary>
+		</member>
+		<member name="F:UnityEditor.EditorApplication.searchChanged">
+			<summary>Callback raised whenever the contents of a window's search box are changed.</summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.GetPrefabObject(UnityEngine.Object)">
+			<summary>Retrieves the enclosing prefab for any object contained within.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.keepOriginalOrientation">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.miniBoldFont">
+			<summary>Mini Bold font.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.CurveField(UnityEngine.AnimationCurve,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for editing an AnimationCurve.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindowWithRect(System.Type,UnityEngine.Rect,System.Boolean)">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.CurveField(System.String,UnityEngine.AnimationCurve,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for editing an AnimationCurve.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindowWithRect(System.Type,UnityEngine.Rect)">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindowWithRect(System.Type,UnityEngine.Rect,System.Boolean,System.String)">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.CurveField(UnityEngine.GUIContent,UnityEngine.AnimationCurve,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for editing an AnimationCurve.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindowWithRect(UnityEngine.Rect)">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.CurveField(UnityEngine.AnimationCurve,UnityEngine.Color,UnityEngine.Rect,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for editing an AnimationCurve.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.GetHandleSize(UnityEngine.Vector3)">
+			<summary>Get world space size of a manipulator handle at given position.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindowWithRect(UnityEngine.Rect,System.Boolean)">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.CurveField(System.String,UnityEngine.AnimationCurve,UnityEngine.Color,UnityEngine.Rect,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for editing an AnimationCurve.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindowWithRect(UnityEngine.Rect,System.Boolean,System.String)">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.CurveField(UnityEngine.GUIContent,UnityEngine.AnimationCurve,UnityEngine.Color,UnityEngine.Rect,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for editing an AnimationCurve.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindowWithRect(UnityEngine.Rect,System.Boolean,System.String,System.Boolean)">
+			<summary>Returns the first EditorWindow of type t which is currently on the screen.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.CurveField(UnityEditor.SerializedProperty,UnityEngine.Color,UnityEngine.Rect,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for editing an AnimationCurve.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.keepOriginalPositionY">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.EditorApplication.modifierKeysChanged">
+			<summary>Delegate for changed keyboard modifier keys.</summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.GetPropertyModifications(UnityEngine.Object)">
+			<summary>Extract all modifications that are applied to the prefab instance compared to the parent prefab.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.toolbar">
+			<summary>Toolbar background from top of windows.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.WorldToGUIPoint(UnityEngine.Vector3)">
+			<summary>Convert world space point to a 2D GUI position.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.Close()">
+			<summary>Close the editor window.</summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.SetPropertyModifications(UnityEngine.Object,UnityEditor.PropertyModification[])">
+			<summary>Assigns all modifications that are applied to the prefab instance compared to the parent prefab.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.InspectorTitlebar(System.Boolean,UnityEngine.Object)">
+			<summary>Make an inspector-window-like titlebar.</summary>
+		</member>
+		<member name="F:UnityEditor.EditorApplication.playmodeStateChanged">
+			<summary>Delegate for play mode state changes.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.InspectorTitlebar(System.Boolean,UnityEngine.Object[])">
+			<summary>Make an inspector-window-like titlebar.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ObjectField(UnityEditor.SerializedProperty,UnityEngine.GUIContent,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field to receive any object type.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.keepOriginalPositionXZ">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.Repaint()">
+			<summary>Make the window repaint.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.toolbarButton">
+			<summary>Style for Button and Toggles in toolbars.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.GUIPointToWorldRay(UnityEngine.Vector2)">
+			<summary>Convert 2D GUI position to a world space ray.</summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.InstantiateAttachedAsset(UnityEngine.Object)">
+			<summary>Instantiate an asset that is referenced by a prefab and use it on the prefab instance.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.NewScene()">
+			<summary>Create a new scene.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.HelpBox(System.String,UnityEditor.MessageType)">
+			<summary>Make a help box with a message to the user.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.HelpBox(System.String,UnityEditor.MessageType,System.Boolean)">
+			<summary>Make a help box with a message to the user.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.toolbarPopup">
+			<summary>Toolbar Popup.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.heightFromFeet">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.RecordPrefabInstancePropertyModifications(UnityEngine.Object)">
+			<summary>Force record property modifications by comparing against the parent prefab.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.OpenScene(System.String)">
+			<summary>Opens the scene at path.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.WorldPointToSizedRect(UnityEngine.Vector3,UnityEngine.GUIContent,UnityEngine.GUIStyle)">
+			<summary>Calculate a rectangle to display a 2D GUI element near a projected point in 3D space.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Space()">
+			<summary>Make a small space between the previous control and the following.</summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.MergeAllPrefabInstances(UnityEngine.Object)">
+			<summary>Force re-merging all prefab instances of this prefab.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.toolbarDropDown">
+			<summary>Toolbar Dropdown.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.SendEvent(UnityEngine.Event)">
+			<summary>Sends an Event to a window.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.mirror">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.OpenSceneAdditive(System.String)">
+			<summary>Opens the scene at path additively.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.PickRectObjects(UnityEngine.Rect)">
+			<summary>Pick GameObjects that lie within a specified screen rectangle.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.PickRectObjects(UnityEngine.Rect,System.Boolean)">
+			<summary>Pick GameObjects that lie within a specified screen rectangle.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginToggleGroup(System.String,System.Boolean)">
+			<summary>Begin a vertical group with a toggle to enable or disable all the controls within at once.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginToggleGroup(UnityEngine.GUIContent,System.Boolean)">
+			<summary>Begin a vertical group with a toggle to enable or disable all the controls within at once.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.toolbarTextField">
+			<summary>Toolbar text field.</summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.DisconnectPrefabInstance(UnityEngine.Object)">
+			<summary>Disconnects the prefab instance from its parent prefab.</summary>
+		</member>
+		<member name="T:UnityEditor.AnimationUtility">
+			<summary>Editor utility functions for modifying animation clips.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.SaveScene(System.String,System.Boolean)">
+			<summary>Save the open scene.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.SaveScene(System.String)">
+			<summary>Save the open scene.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.SaveScene()">
+			<summary>Save the open scene.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.PickGameObject(UnityEngine.Vector2,System.Boolean)">
+			<summary>Pick game object closest to specified position.</summary>
+		</member>
+		<member name="T:UnityEditor.CustomEditor">
+			<summary>Tells an Editor class which run-time type it's an editor for.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EndToggleGroup()">
+			<summary>Close a group started with BeginToggleGroup.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.inspectorDefaultMargins">
+			<summary>Wrap content in a vertical group with this style to get the default margins used in the Inspector.</summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.InstantiatePrefab(UnityEngine.Object)">
+			<summary>Instantiates the given prefab.</summary>
+		</member>
+		<member name="F:UnityEditor.AnimationUtility.onCurveWasModified">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.SaveCurrentSceneIfUserWantsTo()">
+			<summary>Ask the user if he wants to save the open scene.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.PushCamera(UnityEngine.Camera)">
+			<summary>Store all camera settings.</summary>
+		</member>
+		<member name="T:UnityEditor.CanEditMultipleObjects">
+			<summary>Attribute used to make a custom editor support multi-object editing.</summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.inspectorFullWidthMargins">
+			<summary>Wrap content in a vertical group with this style to get full width margins in the Inspector.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginHorizontal(UnityEngine.GUILayoutOption[])">
+			<summary>Begin a horizontal group and get its rect back.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginHorizontal(UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Begin a horizontal group and get its rect back.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginHorizontal(UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Begin a horizontal group and get its rect back.</summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.CreateEmptyPrefab(System.String)">
+			<summary>Creates an empty prefab at given path.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.GetAnimationClips(UnityEngine.Animation)">
+			<summary>Returns the array of AnimationClips that are referenced in the Animation component.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.GetAnimationClips(UnityEngine.GameObject)">
+			<summary>Returns the array of AnimationClips that are referenced in the Animation component.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.OpenProject(System.String,System.String[])">
+			<summary>Open another project.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.PopCamera(UnityEngine.Camera)">
+			<summary>Retrieve all camera settings.</summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.CreatePrefab(System.String,UnityEngine.GameObject,UnityEditor.ReplacePrefabOptions)">
+			<summary>Creates a prefab from a game object hierarchy.</summary>
+		</member>
+		<member name="T:UnityEditor.XboxRunMethod">
+			<summary>Xbox 360 run method.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.SaveAssets()">
+			<summary>Saves all serializable assets that have not yet been written to disk (eg. Materials).</summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.CreatePrefab(System.String,UnityEngine.GameObject)">
+			<summary>Creates a prefab from a game object hierarchy.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EndHorizontal()">
+			<summary>Close a group started with BeginHorizontal.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.SetAnimationClips(UnityEngine.Animation,UnityEngine.AnimationClip[])">
+			<summary>Sets the array of AnimationClips to be referenced in the Animation component.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.RaySnap(UnityEngine.Ray)">
+			<summary>Casts ray against the scene and report if an object lies in its path.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginVertical(UnityEngine.GUILayoutOption[])">
+			<summary>Begin a vertical group and get its rect back.</summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.ReplacePrefab(UnityEngine.GameObject,UnityEngine.Object,UnityEditor.ReplacePrefabOptions)">
+			<summary>Replaces the targetPrefab with a copy of the game object hierarchy go.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginVertical(UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Begin a vertical group and get its rect back.</summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.ReplacePrefab(UnityEngine.GameObject,UnityEngine.Object)">
+			<summary>Replaces the targetPrefab with a copy of the game object hierarchy go.</summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.Repaint()">
+			<summary>Repaint the current view.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginVertical(UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Begin a vertical group and get its rect back.</summary>
+		</member>
+		<member name="T:UnityEditor.XboxOneRunMethod">
+			<summary>Select Xbox One Run Method.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.GetAnimatableBindings(UnityEngine.GameObject,UnityEngine.GameObject)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EndVertical()">
+			<summary>Close a group started with BeginVertical.</summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.FindRootGameObjectWithSameParentPrefab(UnityEngine.GameObject)">
+			<summary>Returns the topmost game object that has the same prefab parent as target.</summary>
+		</member>
+		<member name="T:UnityEditor.ModelImporterTangentSpaceMode">
+			<summary>Animation generation options for ModelImporter.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.Step()">
+			<summary>Perform a single frame step.</summary>
+		</member>
+		<member name="T:UnityEditor.AndroidBuildSubtarget">
+			<summary>Target Android build platform.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.GetFloatValue(UnityEngine.GameObject,UnityEditor.EditorCurveBinding,System.Single&)">
+			<summary>Retrieves the current float value by sampling a curve value on a specific game object.</summary>
+		</member>
+		<member name="T:UnityEditor.AssetMoveResult">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ModelImporterMeshCompression">
+			<summary>Mesh compression options for ModelImporter.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginScrollView(UnityEngine.Vector2,UnityEngine.GUILayoutOption[])">
+			<summary>Begin an automatically layouted scrollview.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginScrollView(UnityEngine.Vector2,System.Boolean,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary>Begin an automatically layouted scrollview.</summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.FindValidUploadPrefabInstanceRoot(UnityEngine.GameObject)">
+			<summary>Returns root game object of the prefab instance if that root prefab instance is a parent of the prefab.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginScrollView(UnityEngine.Vector2,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Begin an automatically layouted scrollview.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.LockReloadAssemblies()">
+			<summary>Prevents loading of assemblies when it is inconvenient.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginScrollView(UnityEngine.Vector2,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Begin an automatically layouted scrollview.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.GetEditorCurveValueType(UnityEngine.GameObject,UnityEditor.EditorCurveBinding)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginScrollView(UnityEngine.Vector2,System.Boolean,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Begin an automatically layouted scrollview.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginScrollView(UnityEngine.Vector2,System.Boolean,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Begin an automatically layouted scrollview.</summary>
+		</member>
+		<member name="T:UnityEditor.FlashBuildSubtarget">
+			<summary>Target Flash build player.</summary>
+		</member>
+		<member name="T:UnityEditor.AssetDeleteResult">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.ReconnectToLastPrefab(UnityEngine.GameObject)">
+			<summary>Connects the game object to the prefab that it was last connected to.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.ExecuteMenuItem(System.String)">
+			<summary>Invokes the menu item in the specified path.</summary>
+		</member>
+		<member name="T:UnityEditor.ModelImporterAnimationCompression">
+			<summary>Animation compression options for ModelImporter.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.GetObjectReferenceValue(UnityEngine.GameObject,UnityEditor.EditorCurveBinding,UnityEngine.Object&)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EndScrollView()">
+			<summary>Ends a scrollview started with a call to BeginScrollView.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EndScrollView(System.Boolean)">
+			<summary>Ends a scrollview started with a call to BeginScrollView.</summary>
+		</member>
+		<member name="T:UnityEditor.MetroSDK">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.ResetToPrefabState(UnityEngine.Object)">
+			<summary>Resets the properties of the component or game object to the parent prefab state.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.UnlockReloadAssemblies()">
+			<summary>Must be called after LockReloadAssemblies, to reenable loading of assemblies.</summary>
+		</member>
+		<member name="T:UnityEditor.MonoImporter">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.GetAnimatedObject(UnityEngine.GameObject,UnityEditor.EditorCurveBinding)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ModelImporterGenerateAnimations">
+			<summary>Animation generation options for ModelImporter. These options relate to the legacy Animation system, they should only be used when ModelImporter.animationType==ModelImporterAnimationType.Legacy.</summary>
+		</member>
+		<member name="T:UnityEditor.BlackBerryBuildSubtarget">
+			<summary>Texture Compression Types.</summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.IsComponentAddedToPrefabInstance(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.Exit(System.Int32)">
+			<summary>Exit the Unity editor application.</summary>
+		</member>
+		<member name="M:UnityEditor.MonoImporter.SetDefaultReferences(System.String[],UnityEngine.Object[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.PropertyModificationToEditorCurveBinding(UnityEditor.PropertyModification,UnityEngine.GameObject,UnityEditor.EditorCurveBinding&)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PropertyField(UnityEditor.SerializedProperty,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for SerializedProperty.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PropertyField(UnityEditor.SerializedProperty,UnityEngine.GUIContent,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for SerializedProperty.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PropertyField(UnityEditor.SerializedProperty,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for SerializedProperty.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PropertyField(UnityEditor.SerializedProperty,UnityEngine.GUIContent,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary>Make a field for SerializedProperty.</summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.RevertPrefabInstance(UnityEngine.GameObject)">
+			<summary>Resets the properties of all objects in the prefab, including child game objects and components that were added to the prefab instance.</summary>
+		</member>
+		<member name="T:UnityEditor.ModelImporterAnimationType">
+			<summary>Animation mode for ModelImporter.</summary>
+		</member>
+		<member name="T:UnityEditor.BlackBerryBuildType">
+			<summary>Build types available for BlackBerry.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.RepaintProjectWindow()">
+			<summary>Can be used to ensure repaint of the ProjectWindow.</summary>
+		</member>
+		<member name="M:UnityEditor.MonoImporter.GetAllRuntimeMonoScripts()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.GetCurveBindings(UnityEngine.AnimationClip)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.GetControlRect(UnityEngine.GUILayoutOption[])">
+			<summary>Get a rect for an Editor control.</summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.GetPrefabType(UnityEngine.Object)">
+			<summary>Given an object, returns its prefab type (None, if it's not a prefab).</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.GetControlRect(System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary>Get a rect for an Editor control.</summary>
+		</member>
+		<member name="T:UnityEditor.TizenBuildSubtarget">
+			<summary>Texture Compression Types.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.GetControlRect(System.Boolean,System.Single,UnityEngine.GUILayoutOption[])">
+			<summary>Get a rect for an Editor control.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.GetControlRect(System.Boolean,System.Single,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary>Get a rect for an Editor control.</summary>
+		</member>
+		<member name="T:UnityEditor.ModelImporter">
+			<summary>Model importer lets you modify model import settings from editor scripts.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.RepaintAnimationWindow()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MonoImporter.SetExecutionOrder(UnityEditor.MonoScript,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.GetObjectReferenceCurveBindings(UnityEngine.AnimationClip)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.FindPrefabRoot(UnityEngine.GameObject)">
+			<summary>Helper function to find the prefab root of an object (used for picking niceness).</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginFadeGroup(System.Single)">
+			<summary>Begins a group that can be be hidden/shown and the transition will be animated.</summary>
+		</member>
+		<member name="T:UnityEditor.EditorUserBuildSettings">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.GetObjectReferenceCurve(UnityEngine.AnimationClip,UnityEditor.EditorCurveBinding)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MonoImporter.GetExecutionOrder(UnityEditor.MonoScript)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.Undo">
+			<summary>Lets you register undo operations on specific objects you are about to perform changes on.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.RepaintHierarchyWindow()">
+			<summary>Can be used to ensure repaint of the HierarchyWindow.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EndFadeGroup()">
+			<summary>Closes a group started with BeginFadeGroup.</summary>
+		</member>
+		<member name="M:UnityEditor.MonoImporter.GetScript()">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.EditorUserBuildSettings.activeBuildTargetChanged">
+			<summary>Triggered in response to SwitchActiveBuildTarget.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.GetEditorCurve(UnityEngine.AnimationClip,UnityEditor.EditorCurveBinding)">
+			<summary>Unity automatic combines position curves, scale curves, rotation curves internally.</summary>
+		</member>
+		<member name="T:UnityEditor.TextureImporterFormat">
+			<summary>Imported texture format for TextureImporter.</summary>
+		</member>
+		<member name="F:UnityEditor.Undo.undoRedoPerformed">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.Beep()">
+			<summary>Plays system beep sound.</summary>
+		</member>
+		<member name="M:UnityEditor.MonoImporter.GetDefaultReference(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Foldout(System.Boolean,System.String)">
+			<summary>Make a label with a foldout arrow to the left of it.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Foldout(System.Boolean,System.String,UnityEngine.GUIStyle)">
+			<summary>Make a label with a foldout arrow to the left of it.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.SetEditorCurve(UnityEngine.AnimationClip,UnityEditor.EditorCurveBinding,UnityEngine.AnimationCurve)">
+			<summary>Adds an editor curve to the given clip.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Foldout(System.Boolean,UnityEngine.GUIContent)">
+			<summary>Make a label with a foldout arrow to the left of it.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Foldout(System.Boolean,UnityEngine.GUIContent,UnityEngine.GUIStyle)">
+			<summary>Make a label with a foldout arrow to the left of it.</summary>
+		</member>
+		<member name="F:UnityEditor.Undo.postprocessModifications">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUserBuildSettings.SwitchActiveBuildTarget(UnityEditor.BuildTarget)">
+			<summary>Select a new build target to be active.</summary>
+		</member>
+		<member name="T:UnityEditor.ClipAnimationMaskType">
+			<summary>AnimationClip mask options for ModelImporterClipAnimation.</summary>
+		</member>
+		<member name="T:UnityEditor.TextureImporter">
+			<summary>Texture importer lets you modify Texture2D import settings from editor scripts.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PrefixLabel(System.String)">
+			<summary>Make a label in front of some control.</summary>
+		</member>
+		<member name="M:UnityEditor.Undo.RegisterCompleteObjectUndo(UnityEngine.Object,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PrefixLabel(System.String,UnityEngine.GUIStyle)">
+			<summary>Make a label in front of some control.</summary>
+		</member>
+		<member name="M:UnityEditor.Undo.RegisterCompleteObjectUndo(UnityEngine.Object[],System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PrefixLabel(System.String,UnityEngine.GUIStyle,UnityEngine.GUIStyle)">
+			<summary>Make a label in front of some control.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PrefixLabel(UnityEngine.GUIContent)">
+			<summary>Make a label in front of some control.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.SetObjectReferenceCurve(UnityEngine.AnimationClip,UnityEditor.EditorCurveBinding,UnityEditor.ObjectReferenceKeyframe[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PrefixLabel(UnityEngine.GUIContent,UnityEngine.GUIStyle)">
+			<summary>Make a label in front of some control.</summary>
+		</member>
+		<member name="T:UnityEditor.TextureImporterMipFilter">
+			<summary>Mip map filter for TextureImporter.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PrefixLabel(UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUIStyle)">
+			<summary>Make a label in front of some control.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUserBuildSettings.GetBuildLocation(UnityEditor.BuildTarget)">
+			<summary>Get the current location for the build.</summary>
+		</member>
+		<member name="T:UnityEditor.TextureImporterSettings">
+			<summary>Stores settings of a TextureImporter.</summary>
+		</member>
+		<member name="T:UnityEditor.ModelImporterClipAnimation">
+			<summary>Animation clips to split animation into.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.GetAllCurves(UnityEngine.AnimationClip)">
+			<summary>Retrieves all curves from a specific animation clip.</summary>
+		</member>
+		<member name="M:UnityEditor.Undo.SetTransformParent(UnityEngine.Transform,UnityEngine.Transform,System.String)">
+			<summary>Sets the parent of transform to the new parent and records an undo operation.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.GetAllCurves(UnityEngine.AnimationClip,System.Boolean)">
+			<summary>Retrieves all curves from a specific animation clip.</summary>
+		</member>
+		<member name="T:UnityEditor.FileUtil">
+			<summary>Lets you do move, copy, delete operations over files or directories.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.GetFloatValue(UnityEngine.GameObject,System.String,System.Type,System.String,System.Single&)">
+			<summary>Retrieves the current float value by sampling a curve value on a specific game object.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.SetEditorCurve(UnityEngine.AnimationClip,System.String,System.Type,System.String,UnityEngine.AnimationCurve)">
+			<summary>Adds an editor curve to the given clip.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.GetEditorCurve(UnityEngine.AnimationClip,System.String,System.Type,System.String)">
+			<summary>Unity automatic combines position curves, scale curves, rotation curves internally.</summary>
+		</member>
+		<member name="T:UnityEditor.TextureImporterGenerateCubemap">
+			<summary>Cubemap generation mode for TextureImporter.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUserBuildSettings.SetBuildLocation(UnityEditor.BuildTarget,System.String)">
+			<summary>Set a new location for the build.</summary>
+		</member>
+		<member name="M:UnityEditor.Undo.RegisterCreatedObjectUndo(UnityEngine.Object,System.String)">
+			<summary>Register an undo operations for a newly created object.</summary>
+		</member>
+		<member name="T:UnityEditor.GameObjectUtility">
+			<summary>GameObject utility functions.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.GetAnimationEvents(UnityEngine.AnimationClip)">
+			<summary>Retrieves all animation events associated with the animation clip.</summary>
+		</member>
+		<member name="T:UnityEditor.TextureImporterNPOTScale">
+			<summary>Scaling mode for non power of two textures in TextureImporter.</summary>
+		</member>
+		<member name="T:UnityEditor.IconDrawStyle">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.SetAnimationEvents(UnityEngine.AnimationClip,UnityEngine.AnimationEvent[])">
+			<summary>Replaces all animation events in the animation clip.</summary>
+		</member>
+		<member name="M:UnityEditor.Undo.DestroyObjectImmediate(UnityEngine.Object)">
+			<summary>Destroys the object and records an undo operation so that it can be recreated.</summary>
+		</member>
+		<member name="T:UnityEditor.MaterialProperty">
+			<summary>Describes information and value of a single shader property.</summary>
+		</member>
+		<member name="T:UnityEditor.ModelImporterMaterialName">
+			<summary>Material naming options for ModelImporter.</summary>
+		</member>
+		<member name="T:UnityEditor.MeshUtility">
+			<summary>Various utilities for mesh manipulation.</summary>
+		</member>
+		<member name="T:UnityEditor.TextureImporterNormalFilter">
+			<summary>Normal map filtering mode for TextureImporter.</summary>
+		</member>
+		<member name="M:UnityEditor.Undo.AddComponent(UnityEngine.GameObject,System.Type)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.AddComponent(UnityEngine.GameObject)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.TextureImporterSettings.Equal(UnityEditor.TextureImporterSettings,UnityEditor.TextureImporterSettings)">
+			<summary>Test texture importer settings for equality.</summary>
+		</member>
+		<member name="T:UnityEditor.ModelImporterMaterialSearch">
+			<summary>Material search options for ModelImporter.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.CalculateTransformPath(UnityEngine.Transform,UnityEngine.Transform)">
+			<summary>Calculates path from root transform to target transform.</summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.targets">
+			<summary>Material objects being edited by this property (Read Only).</summary>
+		</member>
+		<member name="T:UnityEditor.TextureImporterType">
+			<summary>Select this to set basic parameters depending on the purpose of your texture.</summary>
+		</member>
+		<member name="M:UnityEditor.MeshUtility.SetPerTriangleUV2(UnityEngine.Mesh,UnityEngine.Vector2[])">
+			<summary>Will insert per-triangle uv2 in mesh and handle vertex splitting etc.</summary>
+		</member>
+		<member name="M:UnityEditor.TextureImporterSettings.CopyTo(UnityEditor.TextureImporterSettings)">
+			<summary>Copy parameters into another TextureImporterSettings object.</summary>
+		</member>
+		<member name="M:UnityEditor.Undo.RegisterFullObjectHierarchyUndo(UnityEngine.Object,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.RegisterFullObjectHierarchyUndo(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.GetAnimationClipSettings(UnityEngine.AnimationClip)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ShaderUtil">
+			<summary>Utility functions to assist with working with shaders from the editor.</summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.type">
+			<summary>Type of the property (Read Only).</summary>
+		</member>
+		<member name="T:UnityEditor.SpriteImportMode">
+			<summary>Texture importer modes for Sprite import.</summary>
+		</member>
+		<member name="M:UnityEditor.MeshUtility.SetMeshCompression(UnityEngine.Mesh,UnityEditor.ModelImporterMeshCompression)">
+			<summary>Change the mesh compression setting for a mesh.</summary>
+		</member>
+		<member name="M:UnityEditor.TextureImporterSettings.ApplyTextureType(UnityEditor.TextureImporterType,System.Boolean)">
+			<summary>Configure parameters to import a texture for a purpose of type, as described here.</summary>
+		</member>
+		<member name="M:UnityEditor.Undo.RecordObject(UnityEngine.Object,System.String)">
+			<summary>Records any changes done on the object after the RecordObject function.</summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.name">
+			<summary>Name of the property (Read Only).</summary>
+		</member>
+		<member name="T:UnityEditor.SpriteMetaData">
+			<summary>Editor data used in producing a Sprite.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.IsValidPolynomialCurve(UnityEngine.AnimationCurve)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MeshUtility.GetMeshCompression(UnityEngine.Mesh)">
+			<summary>Returns the mesh compression setting for a Mesh.</summary>
+		</member>
+		<member name="M:UnityEditor.ShaderUtil.GetPropertyCount(UnityEngine.Shader)">
+			<summary>Get the number of properties in Shader s.</summary>
+		</member>
+		<member name="M:UnityEditor.Undo.RecordObjects(UnityEngine.Object[],System.String)">
+			<summary>Records multiple undoable objects in a single call. This is the same as calling Undo.RecordObject multiple times.</summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.displayName">
+			<summary>Display name of the property (Read Only).</summary>
+		</member>
+		<member name="T:UnityEditor.TextureImportInstructions">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ShaderUtil.GetPropertyDescription(UnityEngine.Shader,System.Int32)">
+			<summary>Get the description of the shader propery at index propertyIdx of Shader s.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.ConstrainToPolynomialCurve(UnityEngine.AnimationCurve)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MeshUtility.Optimize(UnityEngine.Mesh)">
+			<summary>Optimizes the mesh for GPU access.</summary>
+		</member>
+		<member name="F:UnityEditor.SpriteMetaData.name">
+			<summary>Name of the Sprite.</summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.flags">
+			<summary>Flags that control how property is displayed (Read Only).</summary>
+		</member>
+		<member name="M:UnityEditor.Undo.ClearUndo(UnityEngine.Object)">
+			<summary>Removes aall Undo operation for the identifier object registered using Undo.RegisterCompleteObjectUndo from the undo stack.</summary>
+		</member>
+		<member name="M:UnityEditor.ShaderUtil.GetPropertyName(UnityEngine.Shader,System.Int32)">
+			<summary>Get the name of the shader propery at index propertyIdx of Shader s.</summary>
+		</member>
+		<member name="F:UnityEditor.TextureImportInstructions.compressedFormat">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AnimationUtility.SetAnimationType(UnityEngine.AnimationClip,UnityEditor.ModelImporterAnimationType)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ArrayUtility">
+			<summary>Helpers for builtin arrays ...</summary>
+		</member>
+		<member name="F:UnityEditor.SpriteMetaData.rect">
+			<summary>Bounding rectangle of the sprite's graphic within the atlas image.</summary>
+		</member>
+		<member name="M:UnityEditor.Undo.PerformUndo()">
+			<summary>Perform an Redo operation.</summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.textureDimension">
+			<summary>Texture dimension (2D, Cubemap etc.) of the property (Read Only).</summary>
+		</member>
+		<member name="M:UnityEditor.ShaderUtil.GetPropertyType(UnityEngine.Shader,System.Int32)">
+			<summary>Get the ShaderProperyType of the shader propery at index propertyIdx of Shader s.</summary>
+		</member>
+		<member name="F:UnityEditor.TextureImportInstructions.uncompressedFormat">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AnimationMode">
+			<summary>AnimationMode is used by the AnimationWindow to store properties modifed by the AnimationClip playback.</summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.Add(T[]&,T)">
+			<summary>Appends item to the end of array.</summary>
+		</member>
+		<member name="F:UnityEditor.SpriteMetaData.alignment">
+			<summary>Edge-relative alignment of the sprite graphic.</summary>
+		</member>
+		<member name="M:UnityEditor.Undo.PerformRedo()">
+			<summary>Perform an Redo operation.</summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.rangeLimits">
+			<summary>Min/max limits of a ranged float property (Read Only).</summary>
+		</member>
+		<member name="M:UnityEditor.ShaderUtil.GetRangeLimits(UnityEngine.Shader,System.Int32,System.Int32)">
+			<summary>Get Limits for a range property at index propertyIdx of Shader s.</summary>
+		</member>
+		<member name="F:UnityEditor.TextureImportInstructions.recommendedFormat">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.ArrayEquals(T[],T[])">
+			<summary>Compares two arrays.</summary>
+		</member>
+		<member name="F:UnityEditor.SpriteMetaData.pivot">
+			<summary>Pivot point of the Sprite relative to its bounding rectangle.</summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.hasMixedValue">
+			<summary>Does this property have multiple different values? (Read Only)</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationMode.IsPropertyAnimated(UnityEngine.Object,System.String)">
+			<summary>Is the specified property currently in animation mode and being animated?</summary>
+		</member>
+		<member name="M:UnityEditor.Undo.IncrementCurrentGroup()">
+			<summary>Unity automatically groups undo operations by the current group index.</summary>
+		</member>
+		<member name="M:UnityEditor.ShaderUtil.GetTexDim(UnityEngine.Shader,System.Int32)">
+			<summary>Gets the ShaderPropertyTexDim of the texture at property index propertyIdx of Shader s.</summary>
+		</member>
+		<member name="F:UnityEditor.TextureImportInstructions.desiredFormat">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.AddRange(T[]&,T[])">
+			<summary>Appends items to the end of array.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationMode.StopAnimationMode()">
+			<summary>Stops Animation mode, reverts all properties that were animated in animation mode.</summary>
+		</member>
+		<member name="M:UnityEditor.ShaderUtil.IsShaderPropertyHidden(UnityEngine.Shader,System.Int32)">
+			<summary>Is the shader propery at index propertyIdx of Shader s hidden?</summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.applyPropertyCallback">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.SpriteMetaData.border">
+			<summary>Edge border size for a sprite (in pixels).</summary>
+		</member>
+		<member name="M:UnityEditor.Undo.GetCurrentGroup()">
+			<summary>Unity automatically groups undo operations by the current group index.</summary>
+		</member>
+		<member name="F:UnityEditor.TextureImportInstructions.usageMode">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.Insert(T[]&,System.Int32,T)">
+			<summary>Inserts item item at position index.</summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.colorValue">
+			<summary>Color value of the property.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationMode.InAnimationMode()">
+			<summary>Are we currently in AnimationMode.</summary>
+		</member>
+		<member name="T:UnityEditor.ResolutionDialogSetting">
+			<summary>Resolution dialog setting.</summary>
+		</member>
+		<member name="M:UnityEditor.Undo.RevertAllInCurrentGroup()">
+			<summary>Performs the last undo operation but does not record a redo operation.</summary>
+		</member>
+		<member name="F:UnityEditor.TextureImportInstructions.colorSpace">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.Remove(T[]&,T)">
+			<summary>Removes item from array.</summary>
+		</member>
+		<member name="M:UnityEditor.ShaderUtil.CreateShaderAsset(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.vectorValue">
+			<summary>Vector value of the property.</summary>
+		</member>
+		<member name="M:UnityEditor.Undo.RevertAllDownToGroup(System.Int32)">
+			<summary>Performs all undo operations up to the group index without storing a redo operation in the process.</summary>
+		</member>
+		<member name="T:UnityEditor.AspectRatio">
+			<summary>Aspect ratio.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationMode.StartAnimationMode()">
+			<summary>Starts the animation mode.</summary>
+		</member>
+		<member name="F:UnityEditor.TextureImportInstructions.width">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.FindAll(T[],System.Predicate`1<T>)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ShaderUtil.UpdateShaderAsset(UnityEngine.Shader,System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.floatValue">
+			<summary>Float vaue of the property.</summary>
+		</member>
+		<member name="M:UnityEditor.Undo.CollapseUndoOperations(System.Int32)">
+			<summary>Collapses all undo operation up to group index together into one step.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationMode.BeginSampling()">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.MacFullscreenMode">
+			<summary>Mac fullscreen mode.</summary>
+		</member>
+		<member name="F:UnityEditor.TextureImportInstructions.height">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.Find(T[],System.Predicate`1<T>)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.textureValue">
+			<summary>Texture value of the property.</summary>
+		</member>
+		<member name="T:UnityEditor.NavMeshBuilder">
+			<summary>Navigation mesh builder interface.</summary>
+		</member>
+		<member name="M:UnityEditor.Undo.FlushUndoRecordObjects()">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.StrippingLevel">
+			<summary>Managed code stripping level.</summary>
+		</member>
+		<member name="F:UnityEditor.TextureImportInstructions.compressionQuality">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.FindIndex(T[],System.Predicate`1<T>)">
+			<summary>Find the index of the first element that satisfies the predicate.</summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.textureScaleAndOffset">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AnimationMode.EndSampling()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.NavMeshBuilder.BuildNavMesh()">
+			<summary>Build the Navmesh.</summary>
+		</member>
+		<member name="T:UnityEditor.AudioImporterFormat">
+			<summary>Imported audio format for AudioImporter.</summary>
+		</member>
+		<member name="T:UnityEditor.ScriptCallOptimizationLevel">
+			<summary>Script call optimization level.</summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.IndexOf(T[],T)">
+			<summary>Index of first element with value value.</summary>
+		</member>
+		<member name="T:UnityEditor.UndoPropertyModification">
+			<summary>See Also: Undo.postprocessModifications.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationMode.SampleAnimationClip(UnityEngine.GameObject,UnityEngine.AnimationClip,System.Single)">
+			<summary>Samples an AnimationClip on the object and also records any modified properties in AnimationMode.</summary>
+		</member>
+		<member name="M:UnityEditor.MaterialProperty.ReadFromMaterialPropertyBlock(UnityEngine.MaterialPropertyBlock)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.LastIndexOf(T[],T)">
+			<summary>Index of the last element with value value.</summary>
+		</member>
+		<member name="M:UnityEditor.NavMeshBuilder.BuildNavMeshAsync()">
+			<summary>Build the Navmesh Asyncronously.</summary>
+		</member>
+		<member name="T:UnityEditor.AudioImporterLoadType">
+			<summary>The way we load audio assets AudioImporter.</summary>
+		</member>
+		<member name="F:UnityEditor.UndoPropertyModification.propertyModification">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.iOSSdkVersion">
+			<summary>Supported iOS SDK versions.</summary>
+		</member>
+		<member name="M:UnityEditor.AnimationMode.AddPropertyModification(UnityEditor.EditorCurveBinding,UnityEditor.PropertyModification,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.NavMeshBuilder.ClearAllNavMeshes()">
+			<summary>Clear all Navmeshes.</summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.RemoveAt(T[]&,System.Int32)">
+			<summary>Remove element at position index.</summary>
+		</member>
+		<member name="T:UnityEditor.ExportPackageOptions">
+			<summary>Export package option. Multiple options can be combined together using the | operator.</summary>
+		</member>
+		<member name="M:UnityEditor.MaterialProperty.WriteToMaterialPropertyBlock(UnityEngine.MaterialPropertyBlock,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.iOSTargetOSVersion">
+			<summary>Supported iOS deployment versions.</summary>
+		</member>
+		<member name="T:UnityEditor.RemoveAssetOptions">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.Contains(T[],T)">
+			<summary>Determines if the array contains the item.</summary>
+		</member>
+		<member name="T:UnityEditor.ShaderImporter">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.NavMeshBuilder.Cancel()">
+			<summary>Cancel Navmesh construction.</summary>
+		</member>
+		<member name="T:UnityEditor.EditorMaterialUtility">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetOSVersion.iOS_4_0">
+			<summary>iOS 4.0.</summary>
+		</member>
+		<member name="T:UnityEditor.ImportAssetOptions">
+			<summary>Asset importing options.</summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.Clear(T[]&)">
+			<summary>Clears the array.</summary>
+		</member>
+		<member name="M:UnityEditor.ShaderImporter.GetShader()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorMaterialUtility.ResetDefaultTextures(UnityEngine.Material,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.UIOrientation">
+			<summary>Default mobile device orientation.</summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetOSVersion.iOS_4_1">
+			<summary>iOS 4.1.</summary>
+		</member>
+		<member name="T:UnityEditor.UnwrapParam">
+			<summary>Unwrapping settings.</summary>
+		</member>
+		<member name="T:UnityEditor.PlayerSettings/SamsungTV">
+			<summary>Interace into SamsungTV specific functionality.</summary>
+		</member>
+		<member name="T:UnityEditor.BaseHierarchySort">
+			<summary>The base class used to create new sorting.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorMaterialUtility.SetShaderDefaults(UnityEngine.Shader,System.String[],UnityEngine.Texture[])">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetOSVersion.iOS_4_2">
+			<summary>iOS 4.2.</summary>
+		</member>
+		<member name="M:UnityEditor.ShaderImporter.SetDefaultTextures(System.String[],UnityEngine.Texture[])">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.iOSStatusBarStyle">
+			<summary>iOS status bar style.</summary>
+		</member>
+		<member name="T:UnityEditor.PSP2BuildSubtarget">
+			<summary>Target PS Vita build type.</summary>
+		</member>
+		<member name="F:UnityEditor.UnwrapParam.angleError">
+			<summary>Maximum allowed angle distortion (0..1).</summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetOSVersion.iOS_4_3">
+			<summary>iOS 4.3.</summary>
+		</member>
+		<member name="M:UnityEditor.ShaderImporter.GetDefaultTexture(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.BaseHierarchySort.content">
+			<summary>The content to display to quickly identify the hierarchy's mode.</summary>
+		</member>
+		<member name="T:UnityEditor.PreferenceItem">
+			<summary>The PreferenceItem attribute allows you to add preferences sections to the Preferences Window.</summary>
+		</member>
+		<member name="T:UnityEditor.AndroidSplashScreenScale">
+			<summary>Android splash screen scale modes.</summary>
+		</member>
+		<member name="F:UnityEditor.UnwrapParam.areaError">
+			<summary>Maximum allowed area distortion (0..1).</summary>
+		</member>
+		<member name="M:UnityEditor.BaseHierarchySort.Compare(UnityEngine.GameObject,UnityEngine.GameObject)">
+			<summary>The sorting method used to determine the order of GameObjects.</summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetOSVersion.iOS_5_0">
+			<summary>iOS 5.0.</summary>
+		</member>
+		<member name="T:UnityEditor.AudioImporter">
+			<summary>Audio importer lets you modify AudioClip import settings from editor scripts.</summary>
+		</member>
+		<member name="T:UnityEditor.SCEBuildSubtarget">
+			<summary>Target PS3 or PS4 build type.</summary>
+		</member>
+		<member name="T:UnityEditor.ScriptableWizard">
+			<summary>Derive from this class to create an editor wizard.</summary>
+		</member>
+		<member name="T:UnityEditor.ApiCompatibilityLevel">
+			<summary>.NET API compatibility level.</summary>
+		</member>
+		<member name="F:UnityEditor.UnwrapParam.hardAngle">
+			<summary>This angle (or greater) between triangles will cause seam to be created.</summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetOSVersion.iOS_5_1">
+			<summary>iOS 5.1.</summary>
+		</member>
+		<member name="T:UnityEditor.TransformSort">
+			<summary>Is the default sorting method used by the hierarchy.</summary>
+		</member>
+		<member name="T:UnityEditor.XboxBuildSubtarget">
+			<summary>Target Xbox build type.</summary>
+		</member>
+		<member name="M:UnityEditor.ScriptableWizard.DisplayWizard(System.String)">
+			<summary>Creates a wizard.</summary>
+		</member>
+		<member name="M:UnityEditor.ScriptableWizard.DisplayWizard(System.String,System.String)">
+			<summary>Creates a wizard.</summary>
+		</member>
+		<member name="M:UnityEditor.ScriptableWizard.DisplayWizard(System.String,System.String,System.String)">
+			<summary>Creates a wizard.</summary>
+		</member>
+		<member name="T:UnityEditor.PlayerSettings">
+			<summary>Player Settings is where you define various parameters for the final game that you will build in Unity. Some of these values are used in the Resolution Dialog that launches when you open a standalone game.</summary>
+		</member>
+		<member name="M:UnityEditor.ScriptableWizard.DisplayWizard(System.String,System.Type,System.String)">
+			<summary>Creates a wizard.</summary>
+		</member>
+		<member name="M:UnityEditor.ScriptableWizard.DisplayWizard(System.String,System.Type)">
+			<summary>Creates a wizard.</summary>
+		</member>
+		<member name="T:UnityEditor.MovieImporter">
+			<summary>AssetImporter for importing MovieTextures.</summary>
+		</member>
+		<member name="M:UnityEditor.ScriptableWizard.DisplayWizard(System.String,System.Type,System.String,System.String)">
+			<summary>Creates a wizard.</summary>
+		</member>
+		<member name="F:UnityEditor.UnwrapParam.packMargin">
+			<summary>How much uv-islands will be padded.</summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetOSVersion.iOS_6_0">
+			<summary>iOS 6.0.</summary>
+		</member>
+		<member name="P:UnityEditor.TransformSort.content">
+			<summary>Content to visualize the transform sorting method.</summary>
+		</member>
+		<member name="T:UnityEditor.SerializedObject">
+			<summary>SerializedObject and SerializedProperty are classes for editing properties on objects in a completely generic way that automatically handles undo and styling UI for prefabs.</summary>
+		</member>
+		<member name="M:UnityEditor.UnwrapParam.SetDefaults(UnityEditor.UnwrapParam&)">
+			<summary>Will set default values for params.</summary>
+		</member>
+		<member name="T:UnityEditor.FontTextureCase">
+			<summary>Texture case constants for TrueTypeFontImporter.</summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetOSVersion.iOS_7_0">
+			<summary>iOS 7.0.</summary>
+		</member>
+		<member name="T:UnityEditor.SerializedPropertyType">
+			<summary>Type of a SerializedProperty.</summary>
+		</member>
+		<member name="T:UnityEditor.ObjectNames">
+			<summary>Helper class for constructing displayable names for objects.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedObject.Update()">
+			<summary>Update serialized object's representation.</summary>
+		</member>
+		<member name="T:UnityEditor.Unwrapping">
+			<summary>This class holds everything you may need in regard to uv-unwrapping.</summary>
+		</member>
+		<member name="T:UnityEditor.iOSTargetDevice">
+			<summary>Target iOS device.</summary>
+		</member>
+		<member name="T:UnityEditor.FontRenderingMode">
+			<summary>Font rendering mode constants for TrueTypeFontImporter.</summary>
+		</member>
+		<member name="M:UnityEditor.ObjectNames.NicifyVariableName(System.String)">
+			<summary>Make a displayable name for a variable.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedObject.SetIsDifferentCacheDirty()">
+			<summary>Update hasMultipleDifferentValues cache on the next /Update()/ call.</summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetDevice.iPhoneOnly">
+			<summary>iPhone/iPod Only.</summary>
+		</member>
+		<member name="M:UnityEditor.Unwrapping.GeneratePerTriangleUV(UnityEngine.Mesh)">
+			<summary>Will generate per-triangle uv (3 uv pairs for each triangle) with default settings.</summary>
+		</member>
+		<member name="M:UnityEditor.Unwrapping.GeneratePerTriangleUV(UnityEngine.Mesh,UnityEditor.UnwrapParam)">
+			<summary>Will generate per-triangle uv (3 uv pairs for each triangle) with default settings.</summary>
+		</member>
+		<member name="T:UnityEditor.CurveWrapper/SelectionMode">
+			<summary>SelectionMode can be used to tweak the selection returned by Selection.GetTransforms.</summary>
+		</member>
+		<member name="T:UnityEditor.GenericMenu">
+			<summary>The GenericMenu lets you create a custom context and dropdown menus.</summary>
+		</member>
+		<member name="T:UnityEditor.TrueTypeFontImporter">
+			<summary>AssetImporter for importing Fonts.</summary>
+		</member>
+		<member name="M:UnityEditor.ObjectNames.GetInspectorTitle(UnityEngine.Object)">
+			<summary>Inspector title for an object.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedObject.UpdateIfDirtyOrScript()">
+			<summary>Update serialized object's representation, only if the object has been modified since the last call to Update or if it is a script.</summary>
+		</member>
+		<member name="M:UnityEditor.Unwrapping.GenerateSecondaryUVSet(UnityEngine.Mesh)">
+			<summary>Will auto generate uv2 with default settings for provided mesh, and fill them in.</summary>
+		</member>
+		<member name="M:UnityEditor.Unwrapping.GenerateSecondaryUVSet(UnityEngine.Mesh,UnityEditor.UnwrapParam)">
+			<summary>Will auto generate uv2 with default settings for provided mesh, and fill them in.</summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetDevice.iPadOnly">
+			<summary>iPad Only.</summary>
+		</member>
+		<member name="M:UnityEditor.GenericMenu.AddItem(UnityEngine.GUIContent,System.Boolean,UnityEditor.GenericMenu/MenuFunction)">
+			<summary>Add an item to the menu.</summary>
+		</member>
+		<member name="M:UnityEditor.GenericMenu.AddItem(UnityEngine.GUIContent,System.Boolean,UnityEditor.GenericMenu/MenuFunction2,System.Object)">
+			<summary>Add an item to the menu.</summary>
+		</member>
+		<member name="T:UnityEditor.LODUtility">
+			<summary>LOD Utility Helpers.</summary>
+		</member>
+		<member name="M:UnityEditor.ObjectNames.GetClassName(UnityEngine.Object)">
+			<summary>Class name of an object.</summary>
+		</member>
+		<member name="M:UnityEditor.TrueTypeFontImporter.GenerateEditableFont(System.String)">
+			<summary>Create an editable copy of the font asset at path.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedObject.GetIterator()">
+			<summary>Get the first serialized property.</summary>
+		</member>
+		<member name="T:UnityEditor.Lightmapping">
+			<summary>Allows to control the lightmapping job.</summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetDevice.iPhoneAndiPad">
+			<summary>Universal : iPhone/iPod + iPad.</summary>
+		</member>
+		<member name="M:UnityEditor.GenericMenu.AddDisabledItem(UnityEngine.GUIContent)">
+			<summary>Add a disabled item to the menu.</summary>
+		</member>
+		<member name="M:UnityEditor.ObjectNames.GetDragAndDropTitle(UnityEngine.Object)">
+			<summary>Drag and drop title for an object.</summary>
+		</member>
+		<member name="M:UnityEditor.LODUtility.CalculateLODGroupBoundingBox(UnityEngine.LODGroup)">
+			<summary>Recalculate the bounding region for the given LODGroup.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedObject.FindProperty(System.String)">
+			<summary>Find serialized property by name.</summary>
+		</member>
+		<member name="T:UnityEditor.AssetPostprocessor">
+			<summary>AssetPostprocessor lets you hook into the import pipeline and run scripts prior or after importing assets.</summary>
+		</member>
+		<member name="M:UnityEditor.Lightmapping.BakeAsync()">
+			<summary>Starts an asynchronous bake job.</summary>
+		</member>
+		<member name="M:UnityEditor.GenericMenu.AddSeparator(System.String)">
+			<summary>Add a seperator item to the menu.</summary>
+		</member>
+		<member name="T:UnityEditor.iOSShowActivityIndicatorOnLoading">
+			<summary>Activity Indicator on loading.</summary>
+		</member>
+		<member name="M:UnityEditor.ObjectNames.SetNameSmart(UnityEngine.Object,System.String)">
+			<summary>Sets the name of an Object.</summary>
+		</member>
+		<member name="T:AssetModificationProcessor">
+			<summary>AssetModificationProcessor lets you hook into saving of serialized assets and scenes which are edited inside Unity.</summary>
+		</member>
+		<member name="T:UnityEditor.AssetModificationProcessor">
+			<summary>AssetModificationProcessor lets you hook into saving of serialized assets and scenes which are edited inside Unity.</summary>
+		</member>
+		<member name="M:UnityEditor.AssetPostprocessor.LogWarning(System.String)">
+			<summary>Logs an import warning to the console.</summary>
+		</member>
+		<member name="M:UnityEditor.Lightmapping.Bake()">
+			<summary>Stars a synchronous bake job.</summary>
+		</member>
+		<member name="M:UnityEditor.AssetPostprocessor.LogWarning(System.String,UnityEngine.Object)">
+			<summary>Logs an import warning to the console.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedObject.ApplyModifiedProperties()">
+			<summary>Apply property modifications.</summary>
+		</member>
+		<member name="M:UnityEditor.GenericMenu.GetItemCount()">
+			<summary>Get number of items in the menu.</summary>
+		</member>
+		<member name="T:UnityEditor.AndroidTargetDevice">
+			<summary>Target Android device architecture.</summary>
+		</member>
+		<member name="T:UnityEditor.DragAndDropVisualMode">
+			<summary>Visual indication mode for Drag &amp; Drop operation.</summary>
+		</member>
+		<member name="M:UnityEditor.GenericMenu.ShowAsContext()">
+			<summary>Show the menu under the mouse.</summary>
+		</member>
+		<member name="M:UnityEditor.Lightmapping.BakeSelectedAsync()">
+			<summary>Starts an asynchronous bake job for the selected objects.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedObject.CopyFromSerializedProperty(UnityEditor.SerializedProperty)">
+			<summary>Copies a value from a SerializedProperty to the same serialized property on this serialized object.</summary>
+		</member>
+		<member name="M:UnityEditor.AssetPostprocessor.LogError(System.String)">
+			<summary>Logs an import error message to the console.</summary>
+		</member>
+		<member name="M:UnityEditor.AssetPostprocessor.LogError(System.String,UnityEngine.Object)">
+			<summary>Logs an import error message to the console.</summary>
+		</member>
+		<member name="T:UnityEditor.AndroidSdkVersions">
+			<summary>Supported Android SDK versions.</summary>
+		</member>
+		<member name="T:UnityEditor.DragAndDrop">
+			<summary>Editor drag &amp; drop operations.</summary>
+		</member>
+		<member name="M:UnityEditor.GenericMenu.DropDown(UnityEngine.Rect)">
+			<summary>Show the menu at the given screen rect.</summary>
+		</member>
+		<member name="M:UnityEditor.Lightmapping.BakeSelected()">
+			<summary>Stars a synchronous bake job for the selected objects.</summary>
+		</member>
+		<member name="M:UnityEditor.AssetPostprocessor.GetVersion()">
+			<summary>Returns the version of the asset postprocessor.</summary>
+		</member>
+		<member name="T:UnityEditor.SerializedProperty">
+			<summary>SerializedProperty and SerializedObject are classes for editing properties on objects in a completely generic way that automatically handles undo and styling UI for prefabs.</summary>
+		</member>
+		<member name="T:UnityEditor.AndroidPreferredInstallLocation">
+			<summary>Preferred application install location.</summary>
+		</member>
+		<member name="M:UnityEditor.DragAndDrop.PrepareStartDrag()">
+			<summary>Clears drag &amp; drop data.</summary>
+		</member>
+		<member name="M:UnityEditor.Lightmapping.BakeLightProbesOnlyAsync()">
+			<summary>Starts an asynchronous bake job, but only bakes light probes.</summary>
+		</member>
+		<member name="M:UnityEditor.AssetPostprocessor.GetPostprocessOrder()">
+			<summary>Override the order in which importers are processed.</summary>
+		</member>
+		<member name="T:UnityEditor.GenericMenu/MenuItem">
+			<summary>The MenuItem attribute allows you to add menu items to the main menu and inspector context menus.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.Dispose()">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AndroidShowActivityIndicatorOnLoading">
+			<summary>Application should show ActivityIndicator when loading.</summary>
+		</member>
+		<member name="M:UnityEditor.DragAndDrop.StartDrag(System.String)">
+			<summary>Start a drag operation.</summary>
+		</member>
+		<member name="T:UnityEditor.AssetImporter">
+			<summary>Base class from which asset importers for specific asset types derive.</summary>
+		</member>
+		<member name="M:UnityEditor.Lightmapping.BakeLightProbesOnly()">
+			<summary>Starts a synchronous bake job, but only bakes light probes.</summary>
+		</member>
+		<member name="T:UnityEditor.ViewTool">
+			<summary>Enum for Tools.viewTool.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.EqualContents(UnityEditor.SerializedProperty,UnityEditor.SerializedProperty)">
+			<summary>See if contained serialized properties are equal.</summary>
+		</member>
+		<member name="M:UnityEditor.DragAndDrop.AcceptDrag()">
+			<summary>Accept a drag operation.</summary>
+		</member>
+		<member name="M:UnityEditor.Lightmapping.Cancel()">
+			<summary>Cancels the currently running asynchronous bake job.</summary>
+		</member>
+		<member name="T:UnityEditor.TargetGlesGraphics">
+			<summary>Target GLES graphics.</summary>
+		</member>
+		<member name="M:UnityEditor.AssetImporter.GetAtPath(System.String)">
+			<summary>Retrieves the asset importer for the asset at path.</summary>
+		</member>
+		<member name="T:UnityEditor.PivotMode">
+			<summary>Where is the tool handle placed.</summary>
+		</member>
+		<member name="M:UnityEditor.DragAndDrop.GetGenericData(System.String)">
+			<summary>Get data associated with current drag and drop operation.</summary>
+		</member>
+		<member name="T:UnityEditor.AssetPreview">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Lightmapping.Clear()">
+			<summary>Deletes all lightmap assets and makes all lights behave as if they weren't baked yet.</summary>
+		</member>
+		<member name="T:UnityEditor.iOSTargetResolution">
+			<summary>Deployment target iOS device resolution.</summary>
+		</member>
+		<member name="T:UnityEditor.PivotRotation">
+			<summary>How is the tool handle oriented.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.Next(System.Boolean)">
+			<summary>Move to next property.</summary>
+		</member>
+		<member name="M:UnityEditor.Lightmapping.Tetrahedralize(UnityEngine.Vector3[],System.Int32[]&,UnityEngine.Vector3[]&)">
+			<summary>Calculates a Delaunay Tetrahedralization of the 'positions' point set - the same way the lightmapper.</summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.GetAssetPreview(UnityEngine.Object)">
+			<summary>Returns a preview texture for an asset.</summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.GetAssetPreview(System.Int32)">
+			<summary>Returns a preview texture for an asset.</summary>
+		</member>
+		<member name="M:UnityEditor.DragAndDrop.SetGenericData(System.String,System.Object)">
+			<summary>Set data associated with current drag and drop operation.</summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.GetAssetPreview(System.Int32,System.Int32)">
+			<summary>Returns a preview texture for an asset.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.NextVisible(System.Boolean)">
+			<summary>Move to next visible property.</summary>
+		</member>
+		<member name="T:UnityEditor.Tool">
+			<summary>Which tool is active in the editor.</summary>
+		</member>
+		<member name="T:UnityEditor.LightmapBakeQuality">
+			<summary>Bake quality setting for LightmapEditorSettings.</summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.IsLoadingAssetPreview(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.IsLoadingAssetPreview(System.Int32,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.MonoScript">
+			<summary>Representation of Script assets.</summary>
+		</member>
+		<member name="T:UnityEditor.Tools">
+			<summary>Class used to manipulate the tools used in Unity's Scene View.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.Reset()">
+			<summary>Move to first property of the object.</summary>
+		</member>
+		<member name="T:UnityEditor.LightmapEditorSettings">
+			<summary>Various settings for the bake.</summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.IsLoadingAssetPreviews()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MonoScript.GetClass()">
+			<summary>Returns the System.Type object of the class implemented by this script.</summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.IsLoadingAssetPreviews(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.CountRemaining()">
+			<summary>Count remaining visible properties.</summary>
+		</member>
+		<member name="M:UnityEditor.MonoScript.FromMonoBehaviour(UnityEngine.MonoBehaviour)">
+			<summary>Returns the MonoScript object containing specified MonoBehaviour.</summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.GetMiniThumbnail(UnityEngine.Object)">
+			<summary>Returns the thumbnail for an object (like the ones you see in the project view).</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.CountInProperty()">
+			<summary>Count visible children of this property, including this property itself.</summary>
+		</member>
+		<member name="T:UnityEditor.StaticOcclusionCulling">
+			<summary>StaticOcclusionCulling lets you perform static occlusion culling operations.</summary>
+		</member>
+		<member name="M:UnityEditor.MonoScript.FromScriptableObject(UnityEngine.ScriptableObject)">
+			<summary>Returns the MonoScript object containing specified ScriptableObject.</summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.GetMiniTypeThumbnail(System.Type)">
+			<summary>Returns the thumbnail for the type.</summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.GetMiniTypeThumbnail(UnityEngine.Object)">
+			<summary>Returns the thumbnail for the type.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.Copy()">
+			<summary>Returns a copy of the SerializedProperty iterator in its current state. This is useful if you want to keep a reference to the current property but continue with the iteration.</summary>
+		</member>
+		<member name="M:UnityEditor.StaticOcclusionCulling.Compute()">
+			<summary>Used to generate static occlusion culling data.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.DuplicateCommand()">
+			<summary>Duplicates the serialized property.</summary>
+		</member>
+		<member name="T:UnityEditor.HighlightSearchMode">
+			<summary>Used to specify how to find a given element in the editor to highlight.</summary>
+		</member>
+		<member name="M:UnityEditor.StaticOcclusionCulling.GenerateInBackground()">
+			<summary>Used to compute static occlusion culling data asynchronously.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.DeleteCommand()">
+			<summary>Deletes the serialized property.</summary>
+		</member>
+		<member name="M:UnityEditor.StaticOcclusionCulling.Cancel()">
+			<summary>Used to cancel asynchronous generation of static occlusion culling data.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.FindPropertyRelative(System.String)">
+			<summary>Retrieves the SerializedProperty at a relative path to the current property.</summary>
+		</member>
+		<member name="M:UnityEditor.StaticOcclusionCulling.Clear()">
+			<summary>Clears the PVS of the opened scene.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.GetEndProperty()">
+			<summary>Retrieves the SerializedProperty that defines the end range of this property.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.GetEndProperty(System.Boolean)">
+			<summary>Retrieves the SerializedProperty that defines the end range of this property.</summary>
+		</member>
+		<member name="M:UnityEditor.StaticOcclusionCulling.SetDefaultOcclusionBakeSettings()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.GetEnumerator()">
+			<summary>Retrieves an iterator that allows you to iterator over the current nexting of a serialized property.</summary>
+		</member>
+		<member name="T:UnityEditor.StaticOcclusionCullingVisualization">
+			<summary>Used to visualize static occlusion culling at development time in scene view.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.GetArrayElementAtIndex(System.Int32)">
+			<summary>Returns the element at the specified index in the array.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.InsertArrayElementAtIndex(System.Int32)">
+			<summary>Insert an empty element at the specified index in the array.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.DeleteArrayElementAtIndex(System.Int32)">
+			<summary>Delete the element at the specified index in the array.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.ClearArray()">
+			<summary>Remove all elements from the array.</summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.MoveArrayElement(System.Int32,System.Int32)">
+			<summary>Move an array element from srcIndex to dstIndex.</summary>
+		</member>
+		<member name="T:UnityEditor.SubstanceImporter">
+			<summary>The SubstanceImporter class lets you access the imported ProceduralMaterial instances.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetPrototypeNames()">
+			<summary>Get a list of the names of the ProceduralMaterial prototypes in the package.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetMaterialCount()">
+			<summary>Get the number of ProceduralMaterial instances.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetMaterials()">
+			<summary>Get an array with the ProceduralMaterial instances.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.CloneMaterial(UnityEngine.ProceduralMaterial)">
+			<summary>Clone an existing ProceduralMaterial instance.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.InstantiateMaterial(System.String)">
+			<summary>Instantiate a new ProceduralMaterial instance from a prototype.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.DestroyMaterial(UnityEngine.ProceduralMaterial)">
+			<summary>Destroy an existing ProceduralMaterial instance.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.ResetMaterial(UnityEngine.ProceduralMaterial)">
+			<summary>Reset the ProceduralMaterial to its default values.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.RenameMaterial(UnityEngine.ProceduralMaterial,System.String)">
+			<summary>Rename an existing ProceduralMaterial instance.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.OnShaderModified(UnityEngine.ProceduralMaterial)">
+			<summary>After modifying the shader of a ProceduralMaterial, call this function to apply the changes to the importer.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetMaterialOffset(UnityEngine.ProceduralMaterial)">
+			<summary>Get the material offset, which is used for all the textures that are part of this ProceduralMaterial.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.SetMaterialOffset(UnityEngine.ProceduralMaterial,UnityEngine.Vector2)">
+			<summary>Set the material offset, which is used for all the textures that are part of this ProceduralMaterial.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetMaterialScale(UnityEngine.ProceduralMaterial)">
+			<summary>Get the material scale, which is used for all the textures that are part of this ProceduralMaterial.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.SetMaterialScale(UnityEngine.ProceduralMaterial,UnityEngine.Vector2)">
+			<summary>Set the material scale, which is used for all the textures that are part of this ProceduralMaterial.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetGenerateAllOutputs(UnityEngine.ProceduralMaterial)">
+			<summary>Check if the ProceduralMaterial needs to force generation of all its outputs.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.SetGenerateAllOutputs(UnityEngine.ProceduralMaterial,System.Boolean)">
+			<summary>Specify if the ProceduralMaterial needs to force generation of all its outputs.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetAnimationUpdateRate(UnityEngine.ProceduralMaterial)">
+			<summary>Get the ProceduralMaterial animation update rate in millisecond.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.SetAnimationUpdateRate(UnityEngine.ProceduralMaterial,System.Int32)">
+			<summary>Set the ProceduralMaterial animation update rate in millisecond.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetGenerateMipMaps(UnityEngine.ProceduralMaterial)">
+			<summary>Return true if the mipmaps are generated for this ProceduralMaterial.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.SetGenerateMipMaps(UnityEngine.ProceduralMaterial,System.Boolean)">
+			<summary>Force the generation of mipmaps for this ProceduralMaterial.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetTextureAlphaSource(UnityEngine.ProceduralMaterial,System.String)">
+			<summary>Get the alpha source of the given texture in the ProceduralMaterial.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.SetTextureAlphaSource(UnityEngine.ProceduralMaterial,System.String,UnityEngine.ProceduralOutputType)">
+			<summary>Set the alpha source of the given texture in the ProceduralMaterial.</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetPlatformTextureSettings(System.String,System.String,System.Int32&,System.Int32&,System.Int32&,System.Int32&)">
+			<summary>Get the import settings for a given ProceduralMaterial for a given platform (width and height, RAW/Compressed format, loading behavior).</summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.SetPlatformTextureSettings(System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+			<summary>Set the import settings for the input ProceduralMaterial for the input platform (width and height, RAW/Compressed format, loading behavior).</summary>
+		</member>
+		<member name="T:UnityEditor.SubstanceArchive">
+			<summary>Class for Substance Archive handling.</summary>
+		</member>
+		<member name="T:UnityEditor.SelectionMode">
+			<summary>SelectionMode can be used to tweak the selection returned by Selection.GetTransforms.</summary>
+		</member>
+		<member name="T:UnityEditor.Selection">
+			<summary>Access to the selection in the editor.</summary>
+		</member>
+		<member name="M:UnityEditor.Selection.Contains(System.Int32)">
+			<summary>Returns whether an object is contained in the current selection.</summary>
+		</member>
+		<member name="M:UnityEditor.Selection.Contains(UnityEngine.Object)">
+			<summary>Returns whether an object is contained in the current selection.</summary>
+		</member>
+		<member name="M:UnityEditor.Selection.GetTransforms(UnityEditor.SelectionMode)">
+			<summary>Allows for fine grained control of the selection type using the SelectionMode bitmask.</summary>
+		</member>
+		<member name="M:UnityEditor.Selection.GetFiltered(System.Type,UnityEditor.SelectionMode)">
+			<summary>Returns the current selection filtered by type and mode.</summary>
+		</member>
+		<member name="T:UnityEditor.EditorUtility">
+			<summary>Editor utility functions.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.RevealInFinder(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.SetDirty(UnityEngine.Object)">
+			<summary>Marks target object as dirty.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.IsPersistent(UnityEngine.Object)">
+			<summary>Determines if an object is stored on disk.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.DisplayDialog(System.String,System.String,System.String,System.String)">
+			<summary>Displays a modal dialog.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.DisplayDialog(System.String,System.String,System.String)">
+			<summary>Displays a modal dialog.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.DisplayDialogComplex(System.String,System.String,System.String,System.String,System.String)">
+			<summary>Displays a modal dialog with three buttons.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.OpenFilePanel(System.String,System.String,System.String)">
+			<summary>Displays the "open file" dialog and returns the selected path name.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.SaveFilePanel(System.String,System.String,System.String,System.String)">
+			<summary>Displays the "save file" dialog and returns the selected path name.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.NaturalCompare(System.String,System.String)">
+			<summary>Human-like sorting.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.OpenFolderPanel(System.String,System.String,System.String)">
+			<summary>Displays the "open folder" dialog and returns the selected path name.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.SaveFolderPanel(System.String,System.String,System.String)">
+			<summary>Displays the "save folder" dialog and returns the selected path name.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.SaveFilePanelInProject(System.String,System.String,System.String,System.String)">
+			<summary>Displays the "save file" dialog in the Assets folder of the project and returns the selected path name.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.SaveFilePanelInProject(System.String,System.String,System.String,System.String,System.String)">
+			<summary>Displays the "save file" dialog in the Assets folder of the project and returns the selected path name.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.InstanceIDToObject(System.Int32)">
+			<summary>Translates an instance ID to a reference to an object.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.CompressTexture(UnityEngine.Texture2D,UnityEngine.TextureFormat,System.Int32)">
+			<summary>Compress a texture.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.CompressTexture(UnityEngine.Texture2D,UnityEngine.TextureFormat,UnityEngine.TextureCompressionQuality)">
+			<summary>Compress a texture.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.CompressTexture(UnityEngine.Texture2D,UnityEngine.TextureFormat)">
+			<summary>Compress a texture.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)">
+			<summary>Copy all settings of a Unity Object.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.CollectDependencies(UnityEngine.Object[])">
+			<summary>Calculates and returns a list of all assets the assets listed in roots depend on.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.CollectDeepHierarchy(UnityEngine.Object[])">
+			<summary>Collect all objects in the hierarchy rooted at each of the given objects. This is most useful for linearizing entire GameObject hierarchies including all their components.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.UnloadUnusedAssets()">
+			<summary>Unloads assets that are not used.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.UnloadUnusedAssetsIgnoreManagedReferences()">
+			<summary>Unloads assets that are not used, including the ones that are referenced only from scripts.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.DisplayPopupMenu(UnityEngine.Rect,System.String,UnityEditor.MenuCommand)">
+			<summary>Displays a popup menu.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.FocusProjectWindow()">
+			<summary>Brings the project window to the front and focuses it.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.FormatBytes(System.Int32)">
+			<summary>Returns a text for a number of bytes.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.DisplayProgressBar(System.String,System.String,System.Single)">
+			<summary>Displays or updates a progress bar.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.DisplayCancelableProgressBar(System.String,System.String,System.Single)">
+			<summary>Displays or updates a progress bar that has a cancel button.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.ClearProgressBar()">
+			<summary>Removes progress bar.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.GetObjectEnabled(UnityEngine.Object)">
+			<summary>Is the object enabled (0 disabled, 1 enabled, -1 has no enabled button).</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.SetObjectEnabled(UnityEngine.Object,System.Boolean)">
+			<summary>Set the enabled state of the object.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.SetSelectedWireframeHidden(UnityEngine.Renderer,System.Boolean)">
+			<summary>Set whether the renderer's wireframe will be hidden when the renderer's gameobject is selected.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.ExtractOggFile(UnityEngine.Object,System.String)">
+			<summary>Saves an AudioClip or MovieTexture to a file.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.CreateGameObjectWithHideFlags(System.String,UnityEngine.HideFlags,System.Type[])">
+			<summary>Creates a game object with HideFlags and specified components.</summary>
+		</member>
+		<member name="T:UnityEditor.MenuItem">
+			<summary>The MenuItem attribute allows you to add menu items to the main menu and inspector context menus.</summary>
+		</member>
+		<member name="T:UnityEditor.MenuCommand">
+			<summary>Used to extract the context for a MenuItem. MenuCommand objects are passed to custom menu item functions defined using the MenuItem attribute.</summary>
+		</member>
+		<member name="F:UnityEditor.MenuCommand.context">
+			<summary>Context is the object that is the target of a menu command.</summary>
+		</member>
+		<member name="F:UnityEditor.MenuCommand.userData">
+			<summary>An integer for passing custom information to a menu item.</summary>
+		</member>
+		<member name="T:UnityEditor.GizmoType">
+			<summary>Determines how a gizmo is drawn or picked in the Unity editor.</summary>
+		</member>
+		<member name="T:UnityEditor.DrawGizmo">
+			<summary>The DrawGizmo attribute allows you to supply a gizmo renderer for any Component.</summary>
+		</member>
+		<member name="T:UnityEditor.EditorPrefs">
+			<summary>Stores and accesses Unity editor preferences.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.SetInt(System.String,System.Int32)">
+			<summary>Sets the value of the preference identified by key.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.GetInt(System.String,System.Int32)">
+			<summary>Returns the value corresponding to key in the preference file if it exists.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.GetInt(System.String)">
+			<summary>Returns the value corresponding to key in the preference file if it exists.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.SetFloat(System.String,System.Single)">
+			<summary>Sets the value of the preference identified by key.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.GetFloat(System.String,System.Single)">
+			<summary>Returns the value corresponding to key in the preference file if it exists.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.GetFloat(System.String)">
+			<summary>Returns the value corresponding to key in the preference file if it exists.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.SetString(System.String,System.String)">
+			<summary>Sets the value of the preference identified by key.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.GetString(System.String,System.String)">
+			<summary>Returns the value corresponding to key in the preference file if it exists.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.GetString(System.String)">
+			<summary>Returns the value corresponding to key in the preference file if it exists.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.SetBool(System.String,System.Boolean)">
+			<summary>Sets the value of the preference identified by key.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.GetBool(System.String,System.Boolean)">
+			<summary>Returns the value corresponding to key in the preference file if it exists.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.GetBool(System.String)">
+			<summary>Returns the value corresponding to key in the preference file if it exists.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.HasKey(System.String)">
+			<summary>Returns true if key exists in the preferences.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.DeleteKey(System.String)">
+			<summary>Removes key and its corresponding value from the preferences.</summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.DeleteAll()">
+			<summary>Removes all keys and values from the preferences. Use with caution.</summary>
+		</member>
+		<member name="T:UnityEditor.Help">
+			<summary>Helper class to access Unity documentation.</summary>
+		</member>
+		<member name="M:UnityEditor.Help.HasHelpForObject(UnityEngine.Object)">
+			<summary>Is there a help page for this object?</summary>
+		</member>
+		<member name="M:UnityEditor.Help.HasHelpForObject(UnityEngine.Object,System.Boolean)">
+			<summary>Is there a help page for this object?</summary>
+		</member>
+		<member name="M:UnityEditor.Help.ShowHelpForObject(UnityEngine.Object)">
+			<summary>Show help page for this object.</summary>
+		</member>
+		<member name="M:UnityEditor.Help.ShowHelpPage(System.String)">
+			<summary>Show a help page.</summary>
+		</member>
+		<member name="M:UnityEditor.Help.BrowseURL(System.String)">
+			<summary>Open url in the default web browser.</summary>
+		</member>
+	</members>
+</doc>

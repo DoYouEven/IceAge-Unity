@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 4000c82361174b547bae4c10ad97e3b7
+labels:
+- progress
+- bar
+- energy
+- gui
+- health
+- life
+- mana
+- score
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
